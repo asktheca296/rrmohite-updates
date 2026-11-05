@@ -1,0 +1,37 @@
+name: Check regulator updates
+
+on:
+  schedule:
+    - cron: '17 */3 * * *'   # every 3 hours (UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch official sources
+        id: fetch
+        run: node fetch.mjs
+        continue-on-error: true
+      - name: Save the list
+        run: |
+          git config user.name "rrmohite-updates bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add updates.json
+          git diff --cached --quiet || git commit -m "Update regulator notifications"
+          git push
+      - name: Report a failed source
+        if: steps.fetch.outcome == 'failure'
+        run: exit 1
