@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-05T09:45:00.863Z",
+ "checked": "2026-11-05T13:29:04.645Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -9,10 +9,17 @@
   "RBI": {
    "ok": true,
    "found": 6,
-   "added": 0
+   "added": 1
   }
  },
  "items": [
+  {
+   "id": "d1e9c19989a0",
+   "source": "RBI",
+   "date": "2026-11-05",
+   "text": "Master Directions on Cyber Resilience and Digital Payment Security Controls for non-bank Payment System Operators",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13751&Mode=0"
+  },
   {
    "id": "27fbf148c50f",
    "source": "RBI",
