@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-06T13:23:59.247Z",
+ "checked": "2026-11-06T16:02:01.230Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -7,21 +7,21 @@
    "added": 0,
    "failures": 0
   },
+  "Customs": {
+   "ok": false,
+   "error": "fetch failed",
+   "failures": 3
+  },
+  "GST": {
+   "ok": false,
+   "error": "fetch failed",
+   "failures": 3
+  },
   "RBI": {
    "ok": true,
    "found": 6,
    "added": 0,
    "failures": 0
-  },
-  "Customs": {
-   "ok": false,
-   "error": "fetch failed",
-   "failures": 2
-  },
-  "GST": {
-   "ok": false,
-   "error": "fetch failed",
-   "failures": 2
   },
   "ICAI": {
    "ok": true,
@@ -32,7 +32,7 @@
   "SEBI": {
    "ok": true,
    "found": 1,
-   "added": 1,
+   "added": 0,
    "failures": 0
   },
   "NFRA": {
@@ -41,15 +41,15 @@
    "added": 0,
    "failures": 0
   },
-  "IBBI": {
-   "ok": true,
-   "found": 5,
-   "added": 0,
-   "failures": 0
-  },
   "IRDAI": {
    "ok": true,
    "found": 20,
+   "added": 0,
+   "failures": 0
+  },
+  "IBBI": {
+   "ok": true,
+   "found": 5,
    "added": 0,
    "failures": 0
   },
@@ -62,7 +62,7 @@
   "NABARD": {
    "ok": false,
    "error": "fetch failed",
-   "failures": 2
+   "failures": 3
   }
  },
  "items": [
