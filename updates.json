@@ -1,136 +1,1200 @@
 {
- "checked": "2026-11-06T07:31:40.856Z",
+ "checked": "2026-11-06T08:13:12.656Z",
  "sources": {
   "Income Tax": {
    "ok": true,
    "found": 10,
-   "added": 0
+   "added": 10,
+   "failures": 0
+  },
+  "SEBI": {
+   "ok": true,
+   "found": 8,
+   "added": 8,
+   "failures": 0
   },
   "RBI": {
    "ok": true,
    "found": 6,
-   "added": 0
+   "added": 6,
+   "failures": 0
+  },
+  "IBBI": {
+   "ok": true,
+   "found": 5,
+   "added": 5,
+   "failures": 0
+  },
+  "NFRA": {
+   "ok": true,
+   "found": 6,
+   "added": 6,
+   "failures": 0
+  },
+  "IRDAI": {
+   "ok": true,
+   "found": 20,
+   "added": 20,
+   "failures": 0
+  },
+  "ICAI": {
+   "ok": true,
+   "found": 10,
+   "added": 10,
+   "failures": 0
+  },
+  "IFSCA": {
+   "ok": true,
+   "found": 50,
+   "added": 25,
+   "failures": 0
+  },
+  "NABARD": {
+   "ok": true,
+   "found": 21,
+   "added": 21,
+   "failures": 0
+  },
+  "GST": {
+   "ok": true,
+   "found": 1302,
+   "added": 25,
+   "failures": 0
+  },
+  "Customs": {
+   "ok": true,
+   "found": 3899,
+   "added": 25,
+   "failures": 0
   }
  },
  "items": [
   {
-   "id": "d1e9c19989a0",
+   "id": "f590627fcacb",
+   "source": "Income Tax",
+   "date": "2026-11-06",
+   "text": "CBDT has notified that no tax shall be deducted on dividend income paid by an International Financial Services Centre (IFSC) unit engaged in aircraft leasing to another IFSC unit engaged in aircraft leasing, subject to furnishing the prescribed Form No. 1(N), vide Notification No. 141/2026 dated 4 November 2026, with effect from 1 April 2026, under the Income-tax Act, 2025.",
+   "url": "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-11/Notification-No-141-2026.pdf"
+  },
+  {
+   "id": "bdaa121acd41",
    "source": "RBI",
    "date": "2026-11-05",
    "text": "Master Directions on Cyber Resilience and Digital Payment Security Controls for non-bank Payment System Operators",
    "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13751&Mode=0"
   },
   {
-   "id": "27fbf148c50f",
-   "source": "RBI",
-   "date": "2026-11-03",
-   "text": "Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026",
-   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13750&Mode=0"
+   "id": "6a2817425b9f",
+   "source": "SEBI",
+   "date": "2026-11-05",
+   "text": "Review of the framework for Accredited Investors",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-the-framework-for-accredited-investors_105618.html"
   },
   {
-   "id": "f67ce97cd13a",
+   "id": "8176502b6e66",
+   "source": "SEBI",
+   "date": "2026-11-05",
+   "text": "Framework for net settlement of funds for transactions undertaken by mutual fund schemes in cash market",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-net-settlement-of-funds-for-transactions-undertaken-by-mutual-fund-schemes-in-cash-market_105616.html"
+  },
+  {
+   "id": "ccb102942865",
+   "source": "SEBI",
+   "date": "2026-11-05",
+   "text": "Revision of limits relating to requirement of underlying exposure for currency derivatives contracts",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/revision-of-limits-relating-to-requirement-of-underlying-exposure-for-currency-derivatives-contracts_105614.html"
+  },
+  {
+   "id": "b56ec787ca07",
+   "source": "IBBI",
+   "date": "2026-11-04",
+   "text": "Appointment of Mrs. Tanvi Sundriyal as Ex-Officio Member in the Insolvency and Bankruptcy Board of India.",
+   "url": "https://ibbi.gov.in/uploads/whatsnew/50b683ae3708e4f9edc355d345b81517.pdf"
+  },
+  {
+   "id": "0463a220c28d",
+   "source": "IFSCA",
+   "date": "2026-11-04",
+   "text": "Notification: The Companies (Listing of equity instruments in permissible jurisdictions) Amendment Rules, 2026",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=850da50e42b9c192894a42a7d2d1fc5f&fileName=The_Companies__Listing_of_Equity_Instruments_in_Permissible_Jurisdictions__Amendment_Rules_2026_20261106_1101.pdf&TitleName=Notification"
+  },
+  {
+   "id": "30a991955adc",
+   "source": "IFSCA",
+   "date": "2026-11-04",
+   "text": "Circular: Reporting Norms for the TechFin and Ancillary Service Providers, Global In-House Centres and Book-keeping, Accounting, Taxation and Financial Crime Compliance Service Providers",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=850da50e42b9c192894a42a7d2cd0aed&fileName=Reporting_Formats_for_TechFin_and_Ancillary_Services_Provider__BATF_Services_Providers_and_Global_In_house_Centres_in_IFSCs_20261104_0640.pdf&TitleName=Circular"
+  },
+  {
+   "id": "84367a724d1a",
+   "source": "IFSCA",
+   "date": "2026-11-04",
+   "text": "Notification: Notification enabling Operating lease including any hybrid of operating and financial lease of \"GPU and connected data centre equipment\" as financial product",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=850da50e42b9c192894a42a7d2ca046f&fileName=Notification_on_GPU_and_connected_data_centre_equipmentas_a_financial_product_in_IFSC_20261104_1129.pdf&TitleName=Notification"
+  },
+  {
+   "id": "2f6dd02f664f",
+   "source": "NABARD",
+   "date": "2026-11-04",
+   "text": "Support for on-boarding Regional Rural Banks and Rural Cooperative Banks as Merchant Acquirer in UPI",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/1792210769Cir_257_E.PDF"
+  },
+  {
+   "id": "b62ea22e5c99",
+   "source": "SEBI",
+   "date": "2026-11-04",
+   "text": "Review of Know Your Client process for individual Person Resident Outside India clients",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-know-your-client-process-for-individual-person-resident-outside-india-clients_105603.html"
+  },
+  {
+   "id": "e8207b509cb9",
+   "source": "SEBI",
+   "date": "2026-11-04",
+   "text": "SEBI Constitutes Working Group to Review the Innovators Growth Platform Framework",
+   "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/sebi-constitutes-working-group-to-review-the-innovators-growth-platform-framework_105610.html"
+  },
+  {
+   "id": "b2f7a7e51028",
    "source": "Income Tax",
    "date": "2026-11-03",
    "text": "CBDT has notified the Income-tax (Eighth Amendment) Rules, 2026, vide Notification No. 139/2026 dated 30 October 2026, introducing Rule 189A and new Form 112A for intimating the merger of registered non-profit organisations having the same or similar objects under the Income-tax Act, 2025.",
    "url": "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-10/Notification-No-139-2026.pdf"
   },
   {
-   "id": "61680edd45f0",
-   "source": "RBI",
-   "date": "2026-10-27",
-   "text": "Re-organisation of districts in the NCT of Delhi – Assignment and Review of Lead Bank Responsibility",
-   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13746&Mode=0"
+   "id": "d095ac99fa7b",
+   "source": "IRDAI",
+   "date": "2026-11-03",
+   "text": "Four Layer Structure-Motor Insurance Policy",
+   "url": "https://irdai.gov.in/document-detail?documentId=9987995"
   },
   {
-   "id": "bafe8525b891",
+   "id": "6993a38be937",
+   "source": "RBI",
+   "date": "2026-11-03",
+   "text": "Foreign Exchange Management (Export and Import of Goods and Services) (Second Amendment) Regulations, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13750&Mode=0"
+  },
+  {
+   "id": "b25fb46b2065",
+   "source": "SEBI",
+   "date": "2026-11-03",
+   "text": "Memorandum of Understanding between Securities and Exchange Board of India (SEBI) and Digital India BHASHINI Division (DIBD)",
+   "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/memorandum-of-understanding-between-securities-and-exchange-board-of-india-sebi-and-digital-india-bhashini-division-dibd-_105575.html"
+  },
+  {
+   "id": "4e5b6896b7e8",
+   "source": "GST",
+   "date": "2026-11-02",
+   "text": "CORRIGENDUM TO TRADE NOTICE NO. 06/2026-CENTRAL TAX-Territorial re-organization of Divisions and Ranges within the jurisdiction of CGST & CX, Ahmedabad South Commissionerate",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "653d953ed0f7",
+   "source": "ICAI",
+   "date": "2026-11-02",
+   "text": "Exposure draft of ICAI Valuation Standards, 2026 by Insolvency, Bankruptcy and Valuation Standards Board.",
+   "url": "https://www.icai.org/post/ibvsb-exp-draft-02112026"
+  },
+  {
+   "id": "ceb8f56ebba5",
+   "source": "IRDAI",
+   "date": "2026-11-02",
+   "text": "Master Circular on Registration, Capital Structure, Transfer of Shares and Amalgamation of Insurers, 2026",
+   "url": "https://irdai.gov.in/document-detail?documentId=9983016"
+  },
+  {
+   "id": "425a7751c2cc",
+   "source": "SEBI",
+   "date": "2026-11-02",
+   "text": "Framework for Issuance of Depository Receipts on Units of InvITs",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-issuance-of-depository-receipts-on-units-of-invits-_105557.html"
+  },
+  {
+   "id": "eb42385b52d6",
+   "source": "SEBI",
+   "date": "2026-11-02",
+   "text": "Framework for Issuance of Depository Receipts on Units of REITs",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-issuance-of-depository-receipts-on-units-of-reits-_105558.html"
+  },
+  {
+   "id": "ec015c7feb9f",
+   "source": "Customs",
+   "date": "2026-11-01",
+   "text": "Circular 47/2026: Implementation of the Sea Cargo Manifest and Transshipment Regulations(SCMTR), 2018.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "1b1a704c1ed0",
+   "source": "IBBI",
+   "date": "2026-10-31",
+   "text": "Insolvency and Bankruptcy Board of India strengthens the framework for resolution of corporate debtors having real estate projects",
+   "url": "https://ibbi.gov.in/uploads/whatsnew/0db6aaa5f59d9190fd597e97cdc36795.pdf"
+  },
+  {
+   "id": "a5b44bea75b1",
+   "source": "Customs",
+   "date": "2026-10-30",
+   "text": "Notification 35/2026-Customs: Seeks to extend custom duty exemption on Raw Cotton",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "04d3679539a5",
+   "source": "IBBI",
+   "date": "2026-10-30",
+   "text": "Compliance with RERA for CDs having real estate projects and disclosure of CIRP at project and office sites of the CD.",
+   "url": "https://ibbi.gov.in/uploads/legalframwork/40e3889b945ee592774ba2eb955e8eb5.pdf"
+  },
+  {
+   "id": "b01373fa3eef",
+   "source": "IBBI",
+   "date": "2026-10-30",
+   "text": "Introduction of revised Form CA for filing of claims by real estate allottees.",
+   "url": "https://ibbi.gov.in/uploads/legalframwork/84356af172f0446ac94e944711b0326e.pdf"
+  },
+  {
+   "id": "ca6cb0e57e34",
+   "source": "IBBI",
+   "date": "2026-10-30",
+   "text": "IBBI (Insolvency Resolution Process for Corporate Persons)(Fifth Amendment) Regulations, 2026",
+   "url": "https://ibbi.gov.in/uploads/legalframwork/9b30068d5a4280a7d10803b23a7e60cb.pdf"
+  },
+  {
+   "id": "18a7587b4657",
+   "source": "IRDAI",
+   "date": "2026-10-30",
+   "text": "Migration of Health Regulatory Returns and Health Product UIN Generation to the Integrated BAP",
+   "url": "https://irdai.gov.in/document-detail?documentId=9971295"
+  },
+  {
+   "id": "0aa80c0e93e0",
+   "source": "Customs",
+   "date": "2026-10-28",
+   "text": "Notification 34/2026-Customs: Seeks to amend notification No. 45/2025-Customs dated 24.10.2025",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "0a7afc66b992",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 06/2026- Central Tax: Seeks to amend notification No. 5/2017- Central Tax dated 19th June, 2017",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "106c73e95dc1",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Circular 266/12/2026-GST: Clarifications regarding applicability of GST on certain services",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "14ebd57f7334",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 05/2026-Integrated Tax (Rate): Seeks to amend notification No. 27/2018- Integrated Tax (Rate) dated 31st December, 2018",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "25d77ae3710e",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 03/2026-Integrated Tax (Rate): Seeks to amend notification No. 10/2025- Integrated Tax (Rate) dated 17th September, 2025",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "2f5fd05ec7ec",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 09/2026- Integrated Tax (Rate): Seeks to amend Notification No. 14/2017-Integrated Tax (Rate), dated 28th June, 2017, to give effect to the recommendations of the GST Council.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "3bf3c9facd66",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 10/2026-Central Tax (Rate): Seeks to notify a special procedure under Section 148 for payment of tax under the Toll-Operate-Transfer model.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "51375ee49a2c",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 04/2026-Integrated Tax (Rate): Seeks to amend notification No. 4/2017- Integrated Tax (Rate) dated 28th June, 2017",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "586aa707b834",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 10/2026- Integrated Tax (Rate): Seeks to notify a special procedure under Section 148 for payment of tax under the Toll-Operate-Transfer model.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "5b09b05b0a20",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 08/2026- Integrated Tax (Rate): Seeks to amend Notification No. 10/2017-Integrated Tax (Rate), dated 28th June, 2017, to give effect to the recommendations made by the GST Council in its 57th meeting.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "61fd786032f3",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 02/2026-Integrated Tax (Rate): Seeks to amend notification No. 09/2025- Integrated Tax (Rate) dated 17th September, 2025",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "6807c2cece97",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 02/2026-Central Tax (Rate): Seeks to amend notification No. 09/2025- Central Tax (Rate) dated 17th September, 2025",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "84548fd7c899",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 03/2026-Central Tax (Rate): Seeks to amend notification No. 10/2025- Central Tax (Rate) dated 17th September, 2025",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "893e2ff3bdfd",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 09/2026-Central Tax (Rate): Seeks to amend Notification No. 17/2017-Central Tax (Rate), dated 28th June, 2017, to give effect to the recommendations made by the GST Council in its 57th meeting.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "a72cd871a7fe",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 07/2026-Central Tax (Rate): Seeks to amend Notification No. 12/2017-Central Tax (Rate), dated 28th June, 2017, to give effect to the recommendations made by the GST Council in its 57th meeting.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "b295af024f6f",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 07/2026- Central Tax: Seeks to amend notification No. 50/2018- Central Tax dated 13th September, 2018",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "c1f0a605160a",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 06/2026- Integrated Tax (Rate): Seeks to amend Notification No. 8/2017-Integrated Tax (Rate), dated 28th June, 2017, to give effect to the recommendations made by the GST Council in its 57th meeting.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "c5ad99598dad",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 04/2026-Central Tax (Rate): Seeks to amend notification No. 4/2017- Central Tax (Rate) dated 28th June, 2017",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "d5ac471895a3",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 05/2026-Central Tax (Rate): Seeks to amend notification No. 26/2018- Central Tax (Rate) dated 31st December, 2018",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "ed1096e9c70f",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 07/2026- Integrated Tax (Rate): Seeks to amend Notification No. 9/2017-Integrated Tax (Rate), dated 28th June, 2017, to give effect to the recommendations made by the GST Council in its 57th meeting.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "f17928b37ef3",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 08/2026-Central Tax (Rate): Seeks to amend Notification No. 13/2017-Central Tax (Rate), dated 28th June, 2017, to give effect to the recommendations made by the GST Council in its 57th meeting.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "f35f6322e496",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Circular 265/11/2026-GST: Clarification regarding classification and applicability of GST on the supply of certain goods based on the recommendations of the GST Council in its 57th meeting held on 8th October 2026, at New Delhi",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "fae51f45afed",
+   "source": "GST",
+   "date": "2026-10-28",
+   "text": "Notification 06/2026-Central Tax (Rate): Seeks to amend Notification No. 11/2017-Central Tax (Rate), dated 28th June, 2017, to give effect to the recommendations made by the GST Council in its 57th meeting",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "9f962234a9be",
+   "source": "Customs",
+   "date": "2026-10-27",
+   "text": "Circular 46/2026: Anti-Dumping Duty on imports of \"Titanium Dioxide\" originating in or exported from China PR-Implementation.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "4ec1ca20b18e",
+   "source": "IFSCA",
+   "date": "2026-10-27",
+   "text": "Circular: Review of SCC framework for trading on IIBX",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=850da50e42b9c192894a42a7d2a7f073&fileName=Circular_Review_of_SCC_Framework_for_Trading_on_IIBX_27th_October_2026_20261028_0519.pdf&TitleName=Circular"
+  },
+  {
+   "id": "7271390cf6c2",
+   "source": "IFSCA",
+   "date": "2026-10-27",
+   "text": "Circular: Financial Soundness Criteria applicable to existing PSO(s) and the Applicant(s) desirous of commencing Payment System",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=850da50e42b9c192894a42a7d29fc85d&fileName=Financial_Soundness_Criteria_applicable_to_existing_PSO_s__and_the_Applicant_s__desirous_of_commencing_Payment_System_20261027_0207.pdf&TitleName=Circular"
+  },
+  {
+   "id": "df2dc97597a3",
+   "source": "IFSCA",
+   "date": "2026-10-27",
+   "text": "Circular: Certification on Cyber Security and Cyber Resilience for Designated Officers and other specified employees of Regulated Entities in the IFSCs",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=850da50e42b9c192894a42a7d2a1cd1d&fileName=Circular_DCS_Mandating_IFSCA_NISM_Cyber_Security_Certification_F_20261027_0536.pdf&TitleName=Circular"
+  },
+  {
+   "id": "b389c05502bc",
    "source": "Income Tax",
    "date": "2026-10-27",
    "text": "CBDT has proposed the Income-tax (Seventh Amendment) Rules, 2026, introducing Rule 281A and new Form 173A for furnishing information to claim exemption on interest income and capital gains from Government securities under Schedule IV of the Income-tax Act, 2025.",
    "url": "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-10/Notification-no-137-2026.pdf"
   },
   {
-   "id": "1e1985db1ad5",
+   "id": "b2a7237655b9",
    "source": "RBI",
-   "date": "2026-10-23",
-   "text": "Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Eleventh Amendment Directions, 2026",
-   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13743&Mode=0"
+   "date": "2026-10-27",
+   "text": "Re-organisation of districts in the NCT of Delhi – Assignment and Review of Lead Bank Responsibility",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13746&Mode=0"
   },
   {
-   "id": "83aeb0ce8fa8",
+   "id": "2cde7bbeafe5",
+   "source": "GST",
+   "date": "2026-10-26",
+   "text": "Circular 257/03/2026-GST: Guidelines for the handling of applications for GST registration.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "3058f50aa6d0",
+   "source": "GST",
+   "date": "2026-10-26",
+   "text": "Circular 258/04/2026-GST: Clarification on issues related to demand, adjudication and appeal proceedings under the CGST Act, 2017.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "9dd096a3de7f",
+   "source": "IFSCA",
+   "date": "2026-10-26",
+   "text": "Notification: Notification No. 05/2026–Central Tax",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=850da50e42b9c192894a42a7d2ca5719&fileName=central_tax_05_gst_27102026_20261104_1153.pdf&TitleName=Notification"
+  },
+  {
+   "id": "cf1f11f5ddef",
+   "source": "IFSCA",
+   "date": "2026-10-26",
+   "text": "Circular: Guidelines for the handling applications for GST registration – reg",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=850da50e42b9c192894a42a7d2ca34ff&fileName=Circular_No_257_03_2026__1__20261104_1149.pdf&TitleName=Circular"
+  },
+  {
+   "id": "5e1b49c5d6ac",
    "source": "RBI",
    "date": "2026-10-23",
    "text": "Delegation of Compounding of certain Contraventions under FEMA, 1999 to Regional Offices of the Reserve Bank",
    "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13745&Mode=0"
   },
   {
-   "id": "a12cd424cdc7",
+   "id": "d4fd6f50842e",
+   "source": "RBI",
+   "date": "2026-10-23",
+   "text": "Reserve Bank of India (Commercial Banks – Prudential Norms on Capital Adequacy) Eleventh Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13743&Mode=0"
+  },
+  {
+   "id": "f83b75d25700",
    "source": "RBI",
    "date": "2026-10-23",
    "text": "Reserve Bank of India (Commercial Banks – Forthcoming Instructions) Second Amendment Directions, 2026",
    "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13744&Mode=0"
   },
   {
-   "id": "af5acee59283",
-   "source": "RBI",
-   "date": "2026-10-19",
-   "text": "Reserve Bank of India (Small Finance Banks - Miscellaneous) Amendment Directions, 2026",
-   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13741&Mode=0"
+   "id": "5a1dda1d8a4e",
+   "source": "Customs",
+   "date": "2026-10-22",
+   "text": "Notification 33/2026-Customs: Seeks to extend the validity of notification No. 30/2026-Customs from 31st October, 2026 to 31st December, 2026.",
+   "url": "https://taxinformation.cbic.gov.in/"
   },
   {
-   "id": "2666d200e4e3",
-   "source": "Income Tax",
+   "id": "a9b6c22810a1",
+   "source": "Customs",
+   "date": "2026-10-16",
+   "text": "Notification 32/2026-Customs: Seeks to give effect to the first tranche of tariff concessions under India - New Zealand Free Trade Agreement.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "4d7a1589daac",
+   "source": "ICAI",
+   "date": "2026-10-16",
+   "text": "ICAI Jan Utsav - National Quiz Competition Winners Announced.",
+   "url": "https://www.icai.org/post/icai-jan-utsav-nqc-winner"
+  },
+  {
+   "id": "c7db236010eb",
+   "source": "IFSCA",
+   "date": "2026-10-16",
+   "text": "Circular: Guidelines for Algorithmic Trading on the Stock Exchanges",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=850da50e42b9c192894a42a7d26e8b88&fileName=Circular___Guidelines_for_Algorithmic_Trading_on_the_Stock_Exchanges_20261016_0659.pdf&TitleName=Circular"
+  },
+  {
+   "id": "05e7b287c8ea",
+   "source": "IRDAI",
+   "date": "2026-10-15",
+   "text": "Observance of National Cyber Security Awareness Month (NCSAM) – October 2026.pdf",
+   "url": "https://irdai.gov.in/document-detail?documentId=9903247"
+  },
+  {
+   "id": "af6bf4fa18db",
+   "source": "ICAI",
+   "date": "2026-10-14",
+   "text": "Announcement - Last Opportunity for Submission of MEF 2026-27",
+   "url": "https://www.icai.org/post/mef141026n"
+  },
+  {
+   "id": "06bf54c4a9ee",
+   "source": "ICAI",
    "date": "2026-10-12",
-   "text": "CBDT Notification No. 133/2026 amends the 1988 notification to specify that Joint Commissioners (Appeals) and Additional Commissioners (Appeals) shall be subordinate to the jurisdictional Principal Chief Commissioner or Chief Commissioner of Income-tax.",
-   "url": "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-10/Notification-133-2026.pdf"
+   "text": "Guidelines on Tenders",
+   "url": "https://resource.cdn.icai.org/94550pdc-aps6501-tdm-cg.pdf"
   },
   {
-   "id": "6b6710c955dc",
+   "id": "633d0e0c4285",
    "source": "Income Tax",
    "date": "2026-10-12",
    "text": "CBDT has issued Notification No. 134/2026 dated 8 October 2026, notifying the Income-tax (Sixth Amendment) Rules, 2026, which introduce a revised Form 161 for filing applications for waiver of penalty under section 440(2) of the Income-tax Act, 2025.",
    "url": "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-10/Notification-no-134-2026.pdf"
   },
   {
-   "id": "4e38aaceaa04",
+   "id": "c8b20b9ba3a5",
+   "source": "Income Tax",
+   "date": "2026-10-12",
+   "text": "CBDT Notification No. 133/2026 amends the 1988 notification to specify that Joint Commissioners (Appeals) and Additional Commissioners (Appeals) shall be subordinate to the jurisdictional Principal Chief Commissioner or Chief Commissioner of Income-tax.",
+   "url": "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-10/Notification-133-2026.pdf"
+  },
+  {
+   "id": "83cf80957ce7",
+   "source": "Customs",
+   "date": "2026-10-09",
+   "text": "Circular 45/2026: Clarification regarding scope of the term \"Power Bank\" under S.no. 325 of Table I of notification No. 45/2025-Customs dated 24.10.2025",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "c072650163ad",
+   "source": "ICAI",
+   "date": "2026-10-09",
+   "text": "Announcement for Empanelment of Observers for January 2027 Exams.",
+   "url": "https://resource.cdn.icai.org/94538exam-aps6491.pdf"
+  },
+  {
+   "id": "ca39d12960e0",
+   "source": "NABARD",
+   "date": "2026-10-09",
+   "text": "Long-term refinance for investment credit for agriculture-Long Term Rural Credit Fund (LTRCF)-Regional Rural Banks (RRBs)",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/1174204470Cir_244_E.PDF"
+  },
+  {
+   "id": "21fbd4666f92",
+   "source": "NABARD",
+   "date": "2026-10-08",
+   "text": "Provision of Short-Term (ST) refinance by NABARD to State Cooperative Banks for financing Seasonal Agricultural Operations (SAO) and Additional Seasonal Agricultural Operations (ASAO)– Operational Guidelines",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/16198294Cir_217_E.PDF"
+  },
+  {
+   "id": "2d7d35d7e3d0",
+   "source": "ICAI",
+   "date": "2026-10-05",
+   "text": "Opening of Nominations for the 20th ICAI Awards.",
+   "url": "https://www.icai.org/post/cmib-20th-icai-award-2026-27"
+  },
+  {
+   "id": "39c08449c796",
+   "source": "ICAI",
+   "date": "2026-10-05",
+   "text": "Public Notice inviting claim within 15 days regarding proposed purchase of land admeasuring 558.82 Square Meter (6012.90 Square Feet) situated at Survey No. 90/1/97/1, bearing Plot No. 39, Sw. Baba Mhaiskar Nagar, Dhami Road, Sangli-Miraj-Kupwad Municipal Corporation, Sangli City, Sangli District, Maharashtra - 416416 by ICAI.",
+   "url": "https://resource.cdn.icai.org/94396pnidc250926.pdf"
+  },
+  {
+   "id": "9787e880ecd9",
+   "source": "NABARD",
+   "date": "2026-10-05",
+   "text": "Performance of RRBs – Monitoring (RRBs in Focus)",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/1188182157Cir_238_E.PDF"
+  },
+  {
+   "id": "a692b7644cff",
+   "source": "ICAI",
+   "date": "2026-10-01",
+   "text": "Invitation for contribution to Question Bank in respect of Advanced Integrated Course on Information Technology and Soft Skills (AICITSS) - Advanced IT test.",
+   "url": "https://www.icai.org/post/icai-exam-announcement-01102026"
+  },
+  {
+   "id": "b60f6a7762b4",
+   "source": "IFSCA",
+   "date": "2026-09-30",
+   "text": "Circular: Extension of timeline for completion of Certification Course by KMPs and other employees of Capital Market Intermediaries under the IFSCA (Capital Market Intermediaries) Regulations, 2025",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d045999f71638&fileName=Circular_on_Extension_of_timeline_for_completion_of_Certification_Course_by_KMPs_and_other_employees_of_CMIs_in_IFSC_20260930_0650.pdf&TitleName=Circular"
+  },
+  {
+   "id": "bd5a5b9810c9",
+   "source": "NABARD",
+   "date": "2026-09-30",
+   "text": "Operational Guidelines for Schematic Lending under Long-Term Refinance to Small Finance Banks (SFBs)",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/792515614Cir_235_E.PDF"
+  },
+  {
+   "id": "800705614489",
+   "source": "IFSCA",
+   "date": "2026-09-29",
+   "text": "Circular: Extension of timeline for completion of Certification Course by KMPs and employees of Fund Management Entities under the IFSCA (Fund Management) Regulations, 2025",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d045999e77c6f&fileName=Circular_KMP_Course_Timeline_Extension_290926_20260929_0404.pdf&TitleName=Circular"
+  },
+  {
+   "id": "330eaccfed53",
    "source": "Income Tax",
    "date": "2026-09-29",
    "text": "As per Circular No.07/2026 dated 28th September,2026, the due dates for ITR and Audit Report are extended as below: Due date for filing of Income Tax Returns for AY 2026-27 is extended in the cases of persons mentioned at Sl.No.2 in the Table below Explanation2 to Sub-section (1) of Section 139 of Income Tax Act 1961 from 31st October 2026 to 21st November 2026\" Accordingly, the Audit Reports for AY 2026-27 is extended in the cases of persons mentioned at Sl.No.2 in the Table below Explanation2 to Sub-section (1) of Section 139 of Income Tax Act 1961 from 30th September 2026 to 21st October, 2026.",
    "url": "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-09/Circular-7-2026.pdf"
   },
   {
-   "id": "13b46bd8cd80",
+   "id": "67df5ccda61e",
+   "source": "NABARD",
+   "date": "2026-09-29",
+   "text": "Credit Limits to StCBs/CCBs for Financing the Working Capital requirements of Primary/Apex/Regional Weavers Cooperative Societies, etc. – Operational guidelines for the year 2026-27",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/129528866Cir_223_E.PDF"
+  },
+  {
+   "id": "dfda9f78d813",
+   "source": "Customs",
+   "date": "2026-09-28",
+   "text": "Circular 44/2026: Establishment of a Special Notified Zone (SNZ) at Surat International Diatrade Centre (SIDC), 2nd Floor, Tower-B, Surat Diamond Bourse, Khajod, Surat.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "fe28cdebfd7d",
+   "source": "NABARD",
+   "date": "2026-09-28",
+   "text": "Provision of short-term refinance for financing Seasonal Agricultural Operations - Financing of PACS/Ceded Societies through Scheduled Commercial Banks -2026-27",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/185796915Cir_231_E.PDF"
+  },
+  {
+   "id": "1f77b9320766",
+   "source": "ICAI",
+   "date": "2026-09-25",
+   "text": "Advisory regarding timely completion of statutory compliances in view of the proposed Bank Strike from 28th to 30th September 2026.",
+   "url": "https://resource.cdn.icai.org/94389clc-aps6399.pdf"
+  },
+  {
+   "id": "23eddbcce658",
+   "source": "IFSCA",
+   "date": "2026-09-25",
+   "text": "Circular: Framework for differential distribution in Venture Capital Schemes and Restricted Schemes to facilitate blended finance and other fund structures",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d045999d9838b&fileName=Regulatory_Framework_for_Differential_Distribution_final_20260925_0214.pdf&TitleName=Circular"
+  },
+  {
+   "id": "cf36849d6a90",
+   "source": "NABARD",
+   "date": "2026-09-25",
+   "text": "Withdrawal of Specified NABARD Guidance Notes Consequent upon Issuance of RBI Master Directions",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/Cir_233_E.PDF"
+  },
+  {
+   "id": "0fc2e5bb0286",
+   "source": "Customs",
+   "date": "2026-09-24",
+   "text": "Circular 43/2026: Application of Section 28DA of the Customs Act, 1962 and CAROTAR, 2020 consistent with the Rules of Origin under Trade Agreements",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "7096b1cfe08f",
+   "source": "Customs",
+   "date": "2026-09-24",
+   "text": "Circular 42/2026: Mandatory additional qualifiers in export declarations in respect of certain textile products w.e.f 01.11.2026.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "5908c722aa27",
    "source": "Income Tax",
    "date": "2026-09-24",
    "text": "CBDT has issued Notification No. 120/2026 extending the registration deadline for Registered Valuers and Authorised Income-tax Practitioners to 31 March 2027 and introducing revised Forms 169 and 171.",
    "url": "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-09/Notification-no-120-2026.pdf"
   },
   {
-   "id": "8d2ebd755b4b",
+   "id": "b7ccdc10870d",
    "source": "Income Tax",
    "date": "2026-09-24",
    "text": "CBDT has issued Notification No. 121/2026 extends TDS reporting requirements for non-resident property transactions and updates Forms 132 & 141.",
    "url": "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-09/Notification-no-121-2026.pdf"
   },
   {
-   "id": "c86dede0907f",
+   "id": "3d2f623e5c2e",
+   "source": "Customs",
+   "date": "2026-09-23",
+   "text": "Notification 31/2026-Customs: Seeks to modify Basic Customs Duty (BCD) on crude and refined edible oils.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "9f216dcc2126",
+   "source": "ICAI",
+   "date": "2026-09-23",
+   "text": "Schedule of ISA AT, November 2026",
+   "url": "https://resource.cdn.icai.org/94358exam-aps6372-isa-at-nov2026.pdf"
+  },
+  {
+   "id": "237117309a29",
+   "source": "NABARD",
+   "date": "2026-09-23",
+   "text": "Provision of Short-Term (ST) refinance by NABARD to Regional Rural Banks (RRBs) for financing Seasonal Agricultural Operations (SAO) and Additional SAO – Operational Guidelines",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/431795162Cir_218_E.PDF"
+  },
+  {
+   "id": "304115580500",
+   "source": "IFSCA",
+   "date": "2026-09-22",
+   "text": "Circular: Updated Consolidated Circular - Import of Gold or Silver through IIBX",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d045999c84e43&fileName=Consolidated_Circular___Import_of_Gold_or_Silver___September_2026_20260922_1015.pdf&TitleName=Circular"
+  },
+  {
+   "id": "c0f9ee4ed87a",
+   "source": "IFSCA",
+   "date": "2026-09-22",
+   "text": "Circular: Amendment to IFSCA Consolidated Circular - Import of Gold or Silver through IIBX",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d045999c83ea6&fileName=Amendment_to_IFSCA_Consolidated_Circular___Import_of_Gold_or_Silver_through_IIBX___September_2026_20260922_1012.pdf&TitleName=Circular"
+  },
+  {
+   "id": "26e7df2b220f",
+   "source": "IRDAI",
+   "date": "2026-09-22",
+   "text": "Repeal of the ‘Guidelines on repatriation of dividends by insurance intermediaries having majority by foreign investorsi",
+   "url": "https://irdai.gov.in/document-detail?documentId=9847756"
+  },
+  {
+   "id": "6391867b4b91",
    "source": "Income Tax",
    "date": "2026-09-21",
    "text": "CBDT has issued Notification No. 3 of 2026 notifying the Procedure for registration of reporting person/entity and submission of Form No. 98 as per rule 160 of the Income-tax Rules, 2026.",
    "url": "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-09/Notification-3-of-2026.pdf"
   },
   {
-   "id": "b7b9cc4d7221",
+   "id": "967d901704db",
+   "source": "IFSCA",
+   "date": "2026-09-18",
+   "text": "Circular: Amendment to the Circular titled \"Master Circular for Distributors in the IFSC\"",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d045999b73cbe&fileName=Amendment_to_the_Circular_titled_Master_Circular_for_Distributors_in_the_IFSC_20260918_0438.pdf&TitleName=Circular"
+  },
+  {
+   "id": "3dcff07cc2bc",
+   "source": "IFSCA",
+   "date": "2026-09-16",
+   "text": "Notification: IFSCA (Manner of Payment and Receipt of Premium) (Amendment) Regulations, 2026",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d045999a52c5c&fileName=114_IFSCA__Manner_of_payment_and_Receipt_of_Premium___Amendment__Regulations__2026_20260916_1247.pdf&TitleName=Notification"
+  },
+  {
+   "id": "e4a8dcb0a136",
+   "source": "IFSCA",
+   "date": "2026-09-11",
+   "text": "Circular: Extension of validity of expired placement memorandum – reg",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d0459999d2857&fileName=Circular_on_Extension_of_validity_of_expired_PPMs_20260911_0710.pdf&TitleName=Circular"
+  },
+  {
+   "id": "144f5cb00d8a",
+   "source": "IFSCA",
+   "date": "2026-09-08",
+   "text": "Circular: Amendment to the Circular titled “Master Circular for Credit Rating Agencies in the IFSC”",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d0459998ab198&fileName=Amendment_to_the_Circular_titled_%E2%80%9CMaster_Circular_for_Credit_Rating_Agencies_in_the_IFSC__1__20260908_0616.pdf&TitleName=Circular"
+  },
+  {
+   "id": "06aa0a1dde91",
+   "source": "NABARD",
+   "date": "2026-09-08",
+   "text": "Sanction of term loans to State Governments under Section 27 of the NABARD Act, 1981 for Contribution to share capital of cooperative credit institutions – Operational Guidelines",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/2105544306Cir_212_E.PDF"
+  },
+  {
+   "id": "1c0ff8efd8c3",
+   "source": "Customs",
+   "date": "2026-09-03",
+   "text": "Circular 40/2026: Checklists for mandatory compliance for Cosmetics/Drugs/Medical Devices to be verified by the Customs officer before granting out-of-charge in case of PGA facilitated Bills of Entry",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "26ad00f4515f",
+   "source": "Customs",
+   "date": "2026-09-03",
+   "text": "Circular 41/2026: National Assessment Centre (NAC) Portal for Trade and department for effective dissemination of information",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "d73f0c7d361b",
+   "source": "Customs",
+   "date": "2026-09-03",
+   "text": "Circular 39/2026: Amendment to Circular No. 08/2026-Customs dated 28.02.2026 - Rationalization of documentation requirements under the Eligible Manufacturer Importer (EMI) Scheme",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "cba023760259",
+   "source": "Customs",
+   "date": "2026-09-01",
+   "text": "Circular 38/2026: Implementation of the Sea Cargo Manifest and Transshipment Regulations(SCMTR), 2018.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "0ae9b686b598",
    "source": "Income Tax",
    "date": "2026-09-01",
    "text": "CBDT has issued Notification No. 114/2026 [F. No. 370142/18/2026-TPL], notifying the rules and prescribed forms under the Foreign Assets of Small Taxpayers Disclosure Scheme, 2026.",
    "url": "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-08/Notification%20114.pdf"
   },
   {
-   "id": "b14f66dbbc2d",
-   "source": "Income Tax",
+   "id": "21e9eaacf8aa",
+   "source": "IRDAI",
+   "date": "2026-08-28",
+   "text": "Migration of Reinsurance Regulatory Returns and Other Reinsurance Functionalities to the Integrated Business Analytics Platform (BAP)",
+   "url": "https://irdai.gov.in/document-detail?documentId=9772084"
+  },
+  {
+   "id": "5952b328eda2",
+   "source": "Customs",
+   "date": "2026-08-27",
+   "text": "Circular 37/2026: Modalities for payment of exempted GST at the time of import of Raw Sugar actually imported under Advance Authorisation (AA) Scheme to be converted into Tariff Rate Quota (TRQ) Scheme.",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "404ff7cd27ea",
+   "source": "IRDAI",
+   "date": "2026-08-27",
+   "text": "Investment in Maharajah INR Bonds issued by New Development Bank (NDB)",
+   "url": "https://irdai.gov.in/document-detail?documentId=9768288"
+  },
+  {
+   "id": "d9fae1e05b61",
+   "source": "IFSCA",
+   "date": "2026-08-26",
+   "text": "Circular: Requirement for Fund Management Entities (FMEs) to maintain a website or webpage",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d0459994ee804&fileName=Circular_Requirement_for_Fund_Management_Entities__FMEs__to_maintain_a_website_or_webpage_26_Aug_2026_20260827_0806.pdf&TitleName=Circular"
+  },
+  {
+   "id": "4d6d355c94e9",
+   "source": "IFSCA",
+   "date": "2026-08-25",
+   "text": "Circular: Extension of timeline for obtaining International Securities Identification Numbers (ISINs) from a recognised depository in IFSC",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d045999453321&fileName=Circular___Extension_of_timeline_for_ISIN_transfer___final_20260825_0503.pdf&TitleName=Circular"
+  },
+  {
+   "id": "088cdc302239",
+   "source": "Customs",
+   "date": "2026-08-21",
+   "text": "Notification 30/2026-Customs: Seeks to exempt 10 lakh MT of raw sugar falling under tariff heading 1701 from the whole of the customs duty leviable thereon under the First Schedule to the Customs Tariff Act, 1975, up to 31st October, 2026, when imported under the Tariff Rate Quota (TRQ) Scheme (Open General Licence",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "6fbd1c592c3f",
+   "source": "Customs",
    "date": "2026-08-20",
-   "text": "Offline utility of ITR-6 for AY 2026-27 is available now for filing.",
-   "url": "https://www.incometax.gov.in/iec/foportal/downloads/income-tax-returns"
+   "text": "Circular 36/2026: Return of export cargo from international waters due to closure of the Strait of Hormuz- Section 143AAof the Customs Act, 1962",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "592e8afed5d7",
+   "source": "NABARD",
+   "date": "2026-08-14",
+   "text": "Operational Guidelines for Schematic Lending under Long Term Refinance to Scheduled Commercial Banks (Public Sector/Private Sector) & Foreign Banks",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/142249093Cir_186_E.PDF"
+  },
+  {
+   "id": "1254d21adbe8",
+   "source": "IFSCA",
+   "date": "2026-08-10",
+   "text": "Circular: Directions to all Regulated Entities",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=29709e474fe6b066fc0cb19f7dd68540&fileName=Circular___Directions_to_All_REs_20260810_0215.pdf&TitleName=Circular"
+  },
+  {
+   "id": "1e02aabac878",
+   "source": "IFSCA",
+   "date": "2026-08-10",
+   "text": "Circular: Clarification regarding the Circular dated May 12, 2026, titled “Implementation Services by Investment Advisers in the IFSC”",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=29709e474fe6b066fc0cb19f7dd94dc2&fileName=Implementation_Circular___Clarification_10_08_2026_20260810_0540.pdf&TitleName=Circular"
+  },
+  {
+   "id": "c5ec3afe4323",
+   "source": "IFSCA",
+   "date": "2026-08-10",
+   "text": "Circular: Specification of Certification Course for the employees of Fund Management Entities under the IFSCA (Fund Management) Regulations, 2025",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=29709e474fe6b066fc0cb19f7dda5164&fileName=Specification_of_Certification_Course_for_the_employees_of_FMEs_under_IFSCA__Fund_Management__Regulations__2025_20260810_0652.pdf&TitleName=Circular"
+  },
+  {
+   "id": "768dd72c29bb",
+   "source": "NABARD",
+   "date": "2026-08-10",
+   "text": "Operational Guidelines for Schematic Lending under Long Term Refinance to Regional Rural Banks (RRBs)",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/1010457700Cir_189_E.PDF"
+  },
+  {
+   "id": "d94dbd66f92c",
+   "source": "IRDAI",
+   "date": "2026-08-07",
+   "text": "Submission of information by insurers on monthly basis for the purpose of Index of Service Production",
+   "url": "https://irdai.gov.in/document-detail?documentId=9714307"
+  },
+  {
+   "id": "937e38ce69ec",
+   "source": "Customs",
+   "date": "2026-08-06",
+   "text": "Circular 35/2026: SOP for clearance of imported goods through Foreign Post Offices under the Postal Import Regulations, 2025 \").",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "96f608f2b455",
+   "source": "IFSCA",
+   "date": "2026-08-06",
+   "text": "Circular: Specification of Certification Course for KMPs and other employees of Capital Market Intermediaries under the IFSCA (Capital Market Intermediaries) Regulations, 2025",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=29709e474fe6b066fc0cb19f7dc5f6a0&fileName=Circular_Certification_Course_for_KMPs_and_other_employees_of_CMIs_under_the_IFSCA__CMI_Reg_20260806_0641.pdf&TitleName=Circular"
+  },
+  {
+   "id": "735bcbbaf448",
+   "source": "NABARD",
+   "date": "2026-08-05",
+   "text": "Operational Guidelines for Schematic Lending under Long Term Refinance to State Cooperative Banks (StCBs)",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/367262910Cir_187_E.PDF"
+  },
+  {
+   "id": "edad632cd0bc",
+   "source": "IRDAI",
+   "date": "2026-08-04",
+   "text": "Circular on natural disaster affecting four districts of Assam",
+   "url": "https://irdai.gov.in/document-detail?documentId=9706554"
+  },
+  {
+   "id": "f06d83de6644",
+   "source": "IFSCA",
+   "date": "2026-08-03",
+   "text": "Circular: Modifications under the International Financial Services Centres Authority (Anti Money Laundering, Counter-Terrorist Financing and Know Your Customer) Guidelines, 2022",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=29709e474fe6b066fc0cb19f7db05701&fileName=circular_with_CBWTR_amendment_20260804_1101.pdf&TitleName=Circular"
+  },
+  {
+   "id": "9f5f8297fba6",
+   "source": "Customs",
+   "date": "2026-07-30",
+   "text": "Circular 34/2026: Automation of Refund Application and Processing for Courier lmports through Express Cargo Clearance System (ECCS)",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "b06c77746a04",
+   "source": "Customs",
+   "date": "2026-07-28",
+   "text": "Corrigendum to Notification No. 28/2026-Customs dated 10th July, 2026",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "4cb24e007801",
+   "source": "IRDAI",
+   "date": "2026-07-23",
+   "text": "Submission of Self-Contained Note and other related documents to the Office of the Insurance Ombudsmen",
+   "url": "https://irdai.gov.in/document-detail?documentId=9681522"
+  },
+  {
+   "id": "7f4c3e77ed32",
+   "source": "NABARD",
+   "date": "2026-07-20",
+   "text": "Provision of Short-term refinance by NABARD to Small Finance Banks (SFB) – Fixed & Floating Rate of Interest – Operational Guidelines for the year 2026-27",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/1078300364Cir_184_E.PDF"
+  },
+  {
+   "id": "88efe7002afb",
+   "source": "Customs",
+   "date": "2026-07-14",
+   "text": "Notification 29/2026-Customs: Seeks to give effect to the first tranche of tariff concessions under India-UK Comprehensive Economic and Trade Agreement (CETA)",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "9a299fb15907",
+   "source": "IRDAI",
+   "date": "2026-07-14",
+   "text": "Clarifications on implementation of Indian Accounting Standards",
+   "url": "https://irdai.gov.in/document-detail?documentId=9658463"
+  },
+  {
+   "id": "c067d080757f",
+   "source": "Customs",
+   "date": "2026-07-13",
+   "text": "Circular 33/2026: Implementation of self-certification of Origin Declarations under the India-United Kingdom Comprehensive Economic and Trade Agreement (India-UK CETA)",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "66b02f91fdb9",
+   "source": "Customs",
+   "date": "2026-07-11",
+   "text": "Circular 32/2026: Discontinuation of submission of manual documents/statements in respect of containers imported under Notification No. 104/94-Customs dated 16.03.1994 by the Shipping Lines",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "a38663f99fd2",
+   "source": "Customs",
+   "date": "2026-07-10",
+   "text": "Notification 28/2026-Customs: Amendment in notification no.08/2016",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "c849ec80de6c",
+   "source": "IRDAI",
+   "date": "2026-07-08",
+   "text": "Formats for publishing financial results as required under the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (LODR Regulations, 2015)",
+   "url": "https://irdai.gov.in/document-detail?documentId=9646724"
+  },
+  {
+   "id": "22d16ad8d2d4",
+   "source": "IRDAI",
+   "date": "2026-07-02",
+   "text": "Extension of Transitional Arrangements for Payment of Annual Fee and Issuance of Certificate of Registration",
+   "url": "https://irdai.gov.in/document-detail?documentId=9613196"
+  },
+  {
+   "id": "421ce8d817b9",
+   "source": "NABARD",
+   "date": "2026-06-03",
+   "text": "Publication of Advisory and Alert Module on the Ensure (2.0) Portal",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/1947565754Cir_141_E.PDF"
+  },
+  {
+   "id": "805694598cd1",
+   "source": "IRDAI",
+   "date": "2026-05-25",
+   "text": "Remuneration to Key Management Persons (KMPs)",
+   "url": "https://irdai.gov.in/document-detail?documentId=9508062"
+  },
+  {
+   "id": "2f3f724dd2f5",
+   "source": "IRDAI",
+   "date": "2026-04-07",
+   "text": "Circular - Surveyors and Loss Assessors clarification regarding payment of Annual Fees",
+   "url": "https://irdai.gov.in/document-detail?documentId=9196320"
+  },
+  {
+   "id": "5e5631e3aa87",
+   "source": "IRDAI",
+   "date": "2026-04-01",
+   "text": "Clarifications on implementation of Indian Accounting Standards (Ind AS)",
+   "url": "https://irdai.gov.in/document-detail?documentId=9122615"
+  },
+  {
+   "id": "3ff1eb5e2f27",
+   "source": "NABARD",
+   "date": "2026-03-30",
+   "text": "Continuation of Modified Interest Subvention Scheme for Short Term Loans (agriculture and allied activities) during the year 2025-26",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/1344813148Cir_93_E.PDF"
+  },
+  {
+   "id": "d114b0ad1f58",
+   "source": "IRDAI",
+   "date": "2026-03-25",
+   "text": "Servicing to the policyholders – Special Measure for the current Financial Year 2025-26",
+   "url": "https://irdai.gov.in/document-detail?documentId=9027284"
+  },
+  {
+   "id": "e1cd793e9879",
+   "source": "NABARD",
+   "date": "2026-03-17",
+   "text": "Guidelines on fixation of Scale of Finance (SoF)",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/636591633Cir_78_E.PDF"
+  },
+  {
+   "id": "7b5a70b7bdfd",
+   "source": "IRDAI",
+   "date": "2026-03-16",
+   "text": "Transitional arrangements for payment of Annual Fee and issuance of Certificate of Registration (Intermediaries)",
+   "url": "https://irdai.gov.in/document-detail?documentId=8971093"
+  },
+  {
+   "id": "cf8fe6989776",
+   "source": "NABARD",
+   "date": "2026-03-13",
+   "text": "Provision of Short term refinance by NABARD to NBFCs including subsidiaries of NABARD - Operational Guidelines for the year 2025-26",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/649966254Cir_70_E.PDF"
+  },
+  {
+   "id": "6549c16f2bdb",
+   "source": "NABARD",
+   "date": "2026-03-10",
+   "text": "Provision of Additional Short-Term (ST) refinance by NABARD to Regional Rural Banks for financing Seasonal Agricultural Operations (SAO) @ Fixed Rate & Floating Rate – Operational Guidelines for F. Y. 2025-26 - Corrigendum",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/506875477Cir_62_E.PDF"
+  },
+  {
+   "id": "eb646f66ff3a",
+   "source": "NABARD",
+   "date": "2026-02-18",
+   "text": "Operational Guidelines for Schematic Lending under Long Term Refinance for F.Y 2025-26 – State Cooperative Banks (StCBs)",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/LT%20to%20StCB.pdf"
+  },
+  {
+   "id": "47617cef5f9c",
+   "source": "IRDAI",
+   "date": "2026-02-12",
+   "text": "Clarifications on provisions with respect to investment in Alternative Investment Funds(AIFs)",
+   "url": "https://irdai.gov.in/document-detail?documentId=8760558"
+  },
+  {
+   "id": "140b8da56ef7",
+   "source": "NABARD",
+   "date": "2026-01-27",
+   "text": "Incentive Scheme for Customer Service Points (CSPs)/ Business Correspondents (BCs) of Banks operating in Northeastern (NE) and Hilly States/ UTs - Extension of the Scheme Period",
+   "url": "https://www.nabard.org/auth/writereaddata/tender/435934292Cir_10_E.PDF"
+  },
+  {
+   "id": "22f77fdb440c",
+   "source": "IRDAI",
+   "date": "2026-01-07",
+   "text": "Implementation of 1600 Series TRAI directions",
+   "url": "https://irdai.gov.in/document-detail?documentId=8446575"
+  },
+  {
+   "id": "58e7defeb303",
+   "source": "NFRA",
+   "date": "2026-01-07",
+   "text": "NFRA Circular on Effective Communication Between Statutory Auditors and Those Charged with Governance, Including Audit Committees",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2026/01/20260107299607819.pdf"
+  },
+  {
+   "id": "644082b0a720",
+   "source": "NFRA",
+   "date": "2025-12-16",
+   "text": "NFRA Circular on Maintenance, archival and submission of Audit File to NFRA.",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2025/12/202512172091109797.pdf"
+  },
+  {
+   "id": "c76984a13705",
+   "source": "NFRA",
+   "date": "2024-10-03",
+   "text": "NFRA Circular on Responsibilities of Principal Auditor and Other Auditors in Group Audits",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2024/10/20241003679863187.pdf"
+  },
+  {
+   "id": "d20a5f0c2bd8",
+   "source": "NFRA",
+   "date": "2023-06-26",
+   "text": "NFRA circular on Statutory Auditors’ responsibilities in relation to Fraud in a Company",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/06/2023062673.pdf"
+  },
+  {
+   "id": "5bc08ffff467",
+   "source": "NFRA",
+   "date": "2023-03-29",
+   "text": "NFRA Circular Non Compliance with Ind AS policies on Revenue",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/03/2023032940.pdf"
+  },
+  {
+   "id": "b1f82c246b6e",
+   "source": "NFRA",
+   "date": "2022-10-20",
+   "text": "Non-Accrual of interest on borrowings by the companies in violation of Indian Accounting Standards",
+   "url": "https://cdnbbsr.s3waas.gov.in/s3e2ad76f2326fbc6b56a45a56c59fafdb/uploads/2023/02/2023020650.pdf"
   }
  ]
 }
