@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-06T10:18:12.864Z",
+ "checked": "2026-11-06T13:23:59.247Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -16,18 +16,12 @@
   "Customs": {
    "ok": false,
    "error": "fetch failed",
-   "failures": 1
+   "failures": 2
   },
   "GST": {
    "ok": false,
    "error": "fetch failed",
-   "failures": 1
-  },
-  "SEBI": {
-   "ok": true,
-   "found": 8,
-   "added": 0,
-   "failures": 0
+   "failures": 2
   },
   "ICAI": {
    "ok": true,
@@ -35,15 +29,21 @@
    "added": 0,
    "failures": 0
   },
-  "IBBI": {
+  "SEBI": {
    "ok": true,
-   "found": 5,
-   "added": 0,
+   "found": 1,
+   "added": 1,
    "failures": 0
   },
   "NFRA": {
    "ok": true,
    "found": 6,
+   "added": 0,
+   "failures": 0
+  },
+  "IBBI": {
+   "ok": true,
+   "found": 5,
    "added": 0,
    "failures": 0
   },
@@ -62,7 +62,7 @@
   "NABARD": {
    "ok": false,
    "error": "fetch failed",
-   "failures": 1
+   "failures": 2
   }
  },
  "items": [
@@ -72,6 +72,13 @@
    "date": "2026-11-06",
    "text": "CBDT has notified that no tax shall be deducted on dividend income paid by an International Financial Services Centre (IFSC) unit engaged in aircraft leasing to another IFSC unit engaged in aircraft leasing, subject to furnishing the prescribed Form No. 1(N), vide Notification No. 141/2026 dated 4 November 2026, with effect from 1 April 2026, under the Income-tax Act, 2025.",
    "url": "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-11/Notification-No-141-2026.pdf"
+  },
+  {
+   "id": "6b38b4718c80",
+   "source": "SEBI",
+   "date": "2026-11-06",
+   "text": "Commencement of SEBI (Settlement of Administrative and Civil Proceedings) Regulations, 2026",
+   "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/commencement-of-sebi-settlement-of-administrative-and-civil-proceedings-regulations-2026_105680.html"
   },
   {
    "id": "bdaa121acd41",
