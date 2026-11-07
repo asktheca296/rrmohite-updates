@@ -24,6 +24,10 @@ jobs:
       - name: Fetch official sources
         id: fetch
         run: node fetch.mjs
+        env:
+          # CBIC's servers leave out their intermediate certificate; this is Sectigo's own copy of it
+          # (http://crt.sectigo.com/SectigoPublicServerAuthenticationCAOVR36.crt). Verification stays on.
+          NODE_EXTRA_CA_CERTS: certs/sectigo-public-server-authentication-ca-ov-r36.pem
         continue-on-error: true
       - name: Save the list
         run: |

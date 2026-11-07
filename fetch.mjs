@@ -186,6 +186,8 @@ async function nabard() {
 
 const SOURCES = [['Income Tax', incomeTax], ['GST', gst], ['Customs', customs], ['RBI', rbi], ['SEBI', sebi], ['ICAI', icai],
   ['NFRA', nfra], ['IRDAI', irdai], ['IBBI', ibbi], ['IFSCA', ifsca], ['NABARD', nabard]];
+// Tried every run, but a failure never sends an alert: NABARD does not answer GitHub's servers outside India
+const BEST_EFFORT = new Set(['NABARD']);
 
 const old = fs.existsSync(FILE) ? JSON.parse(fs.readFileSync(FILE, 'utf8')) : { items: [], sources: {} };
 const byId = new Map(old.items.map((i) => [i.id, i]));
@@ -203,7 +205,7 @@ await Promise.all(SOURCES.map(async ([name, fn]) => {
     // "fetch failed" hides the real network error (refused, reset, timeout) in e.cause
     const cause = e.cause ? ` (${e.cause.code || e.cause.name || ''} ${e.cause.message || ''})`.replace(/\s+\)/, ')') : '';
     sources[name] = { ok: false, error: e.message + cause, failures };
-    if (failures >= ALERT_AFTER) alert = true;
+    if (failures >= ALERT_AFTER && !BEST_EFFORT.has(name)) alert = true;
     console.error(`${name} (${failures} in a row): ${e.message}${cause}`);
   }
 }));

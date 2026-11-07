@@ -5,3 +5,5 @@ Official notifications, circulars and announcements from the Income Tax Departme
 `updates.json` is read by https://rrmohite.in/regulatory-updates. Each entry keeps the regulator's own wording and a link to the official document. Nothing here is reviewed or interpreted.
 
 If a source keeps failing for about 12 hours, the scheduled run fails and GitHub emails the account owner.
+
+NABARD is tried every run but does not answer GitHub's servers outside India, so its failures do not send alerts; its last collected circulars stay listed.
