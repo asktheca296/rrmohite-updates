@@ -1,9 +1,15 @@
 {
- "checked": "2026-11-07T09:59:49.556Z",
+ "checked": "2026-11-07T13:09:09.412Z",
  "sources": {
   "Income Tax": {
    "ok": true,
    "found": 10,
+   "added": 0,
+   "failures": 0
+  },
+  "SEBI": {
+   "ok": true,
+   "found": 1,
    "added": 0,
    "failures": 0
   },
@@ -16,12 +22,6 @@
   "ICAI": {
    "ok": true,
    "found": 10,
-   "added": 0,
-   "failures": 0
-  },
-  "SEBI": {
-   "ok": true,
-   "found": 1,
    "added": 0,
    "failures": 0
   },
@@ -52,7 +52,7 @@
   "NABARD": {
    "ok": false,
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: www.nabard.org:443, timeout: 10000ms))",
-   "failures": 11
+   "failures": 12
   },
   "GST": {
    "ok": true,
