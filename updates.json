@@ -1,23 +1,7 @@
 {
- "checked": "2026-11-07T04:04:38.490Z",
+ "checked": "2026-11-07T05:40:32.093Z",
  "sources": {
   "Income Tax": {
-   "ok": true,
-   "found": 10,
-   "added": 0,
-   "failures": 0
-  },
-  "Customs": {
-   "ok": false,
-   "error": "fetch failed",
-   "failures": 7
-  },
-  "GST": {
-   "ok": false,
-   "error": "fetch failed",
-   "failures": 7
-  },
-  "ICAI": {
    "ok": true,
    "found": 10,
    "added": 0,
@@ -29,9 +13,25 @@
    "added": 0,
    "failures": 0
   },
-  "NFRA": {
+  "Customs": {
+   "ok": false,
+   "error": "fetch failed (UNABLE_TO_VERIFY_LEAF_SIGNATURE unable to verify the first certificate)",
+   "failures": 8
+  },
+  "GST": {
+   "ok": false,
+   "error": "fetch failed (UNABLE_TO_VERIFY_LEAF_SIGNATURE unable to verify the first certificate)",
+   "failures": 8
+  },
+  "SEBI": {
    "ok": true,
-   "found": 6,
+   "found": 1,
+   "added": 0,
+   "failures": 0
+  },
+  "ICAI": {
+   "ok": true,
+   "found": 10,
    "added": 0,
    "failures": 0
   },
@@ -41,9 +41,9 @@
    "added": 0,
    "failures": 0
   },
-  "SEBI": {
+  "NFRA": {
    "ok": true,
-   "found": 1,
+   "found": 6,
    "added": 0,
    "failures": 0
   },
@@ -61,8 +61,8 @@
   },
   "NABARD": {
    "ok": false,
-   "error": "fetch failed",
-   "failures": 7
+   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: www.nabard.org:443, timeout: 10000ms))",
+   "failures": 8
   }
  },
  "items": [
