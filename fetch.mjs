@@ -200,9 +200,11 @@ await Promise.all(SOURCES.map(async ([name, fn]) => {
     sources[name] = { ok: true, found: found.length, added, failures: 0 };
   } catch (e) {
     const failures = (old.sources?.[name]?.failures || 0) + 1;
-    sources[name] = { ok: false, error: e.message, failures };
+    // "fetch failed" hides the real network error (refused, reset, timeout) in e.cause
+    const cause = e.cause ? ` (${e.cause.code || e.cause.name || ''} ${e.cause.message || ''})`.replace(/\s+\)/, ')') : '';
+    sources[name] = { ok: false, error: e.message + cause, failures };
     if (failures >= ALERT_AFTER) alert = true;
-    console.error(`${name} (${failures} in a row): ${e.message}`);
+    console.error(`${name} (${failures} in a row): ${e.message}${cause}`);
   }
 }));
 
