@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-06T21:54:07.956Z",
+ "checked": "2026-11-07T01:18:44.476Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -10,12 +10,12 @@
   "GST": {
    "ok": false,
    "error": "fetch failed",
-   "failures": 5
+   "failures": 6
   },
   "Customs": {
    "ok": false,
    "error": "fetch failed",
-   "failures": 5
+   "failures": 6
   },
   "RBI": {
    "ok": true,
@@ -29,27 +29,27 @@
    "added": 0,
    "failures": 0
   },
-  "SEBI": {
-   "ok": true,
-   "found": 1,
-   "added": 0,
-   "failures": 0
-  },
-  "IBBI": {
-   "ok": true,
-   "found": 5,
-   "added": 0,
-   "failures": 0
-  },
   "NFRA": {
    "ok": true,
    "found": 6,
    "added": 0,
    "failures": 0
   },
+  "SEBI": {
+   "ok": true,
+   "found": 1,
+   "added": 0,
+   "failures": 0
+  },
   "IRDAI": {
    "ok": true,
    "found": 20,
+   "added": 0,
+   "failures": 0
+  },
+  "IBBI": {
+   "ok": true,
+   "found": 5,
    "added": 0,
    "failures": 0
   },
@@ -62,7 +62,7 @@
   "NABARD": {
    "ok": false,
    "error": "fetch failed",
-   "failures": 5
+   "failures": 6
   }
  },
  "items": [
