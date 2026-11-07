@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-07T05:40:32.093Z",
+ "checked": "2026-11-07T05:42:27.459Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -13,25 +13,15 @@
    "added": 0,
    "failures": 0
   },
-  "Customs": {
-   "ok": false,
-   "error": "fetch failed (UNABLE_TO_VERIFY_LEAF_SIGNATURE unable to verify the first certificate)",
-   "failures": 8
-  },
-  "GST": {
-   "ok": false,
-   "error": "fetch failed (UNABLE_TO_VERIFY_LEAF_SIGNATURE unable to verify the first certificate)",
-   "failures": 8
-  },
-  "SEBI": {
-   "ok": true,
-   "found": 1,
-   "added": 0,
-   "failures": 0
-  },
   "ICAI": {
    "ok": true,
    "found": 10,
+   "added": 0,
+   "failures": 0
+  },
+  "NFRA": {
+   "ok": true,
+   "found": 6,
    "added": 0,
    "failures": 0
   },
@@ -41,9 +31,9 @@
    "added": 0,
    "failures": 0
   },
-  "NFRA": {
+  "SEBI": {
    "ok": true,
-   "found": 6,
+   "found": 1,
    "added": 0,
    "failures": 0
   },
@@ -62,7 +52,19 @@
   "NABARD": {
    "ok": false,
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: www.nabard.org:443, timeout: 10000ms))",
-   "failures": 8
+   "failures": 9
+  },
+  "GST": {
+   "ok": true,
+   "found": 1302,
+   "added": 0,
+   "failures": 0
+  },
+  "Customs": {
+   "ok": true,
+   "found": 3899,
+   "added": 0,
+   "failures": 0
   }
  },
  "items": [
