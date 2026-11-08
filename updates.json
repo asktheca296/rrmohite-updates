@@ -1,21 +1,9 @@
 {
- "checked": "2026-11-08T01:25:25.766Z",
+ "checked": "2026-11-08T04:07:30.928Z",
  "sources": {
   "Income Tax": {
    "ok": true,
    "found": 10,
-   "added": 0,
-   "failures": 0
-  },
-  "ICAI": {
-   "ok": true,
-   "found": 10,
-   "added": 0,
-   "failures": 0
-  },
-  "RBI": {
-   "ok": true,
-   "found": 6,
    "added": 0,
    "failures": 0
   },
@@ -25,15 +13,27 @@
    "added": 0,
    "failures": 0
   },
-  "NFRA": {
+  "RBI": {
    "ok": true,
    "found": 6,
+   "added": 0,
+   "failures": 0
+  },
+  "ICAI": {
+   "ok": true,
+   "found": 10,
    "added": 0,
    "failures": 0
   },
   "IBBI": {
    "ok": true,
    "found": 5,
+   "added": 0,
+   "failures": 0
+  },
+  "NFRA": {
+   "ok": true,
+   "found": 6,
    "added": 0,
    "failures": 0
   },
@@ -52,7 +52,7 @@
   "NABARD": {
    "ok": false,
    "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: www.nabard.org:443, timeout: 10000ms))",
-   "failures": 16
+   "failures": 17
   },
   "GST": {
    "ok": true,
