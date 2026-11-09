@@ -1,8 +1,7 @@
 // Collects new notifications from official regulator sources into updates.json.
 // Runs on GitHub Actions every few hours; rrmohite.in/regulatory-updates reads the JSON.
 // Only official sites that allow automated reading are used; a site that refuses is left out.
-// Usage: node fetch.mjs            (all sources; on GitHub Actions, NABARD is skipped)
-//        node fetch.mjs --only NABARD   (one source; used by the job on the firm's PC in India)
+// Usage: node fetch.mjs   (or: node fetch.mjs --only RBI,SEBI to run some sources)
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 
@@ -171,29 +170,13 @@ async function ifsca() {
   return out;
 }
 
-// NABARD circulars
-async function nabard() {
-  const base = 'https://www.nabard.org/circulars.aspx?cid=504&id=24';
-  const html = await get(base);
-  const out = [];
-  for (const row of html.split('<div class="circulars_row">').slice(1)) {
-    const d = date(text((row.match(/circulars_date">([\s\S]*?)<\/div>/) || [])[1]));
-    const a = row.match(/<a href="([^"]+)"[^>]*class="pdfLink"[^>]*>([\s\S]*?)<\/(?:span|a)>/);
-    if (d && a) out.push(item('NABARD', d, text(a[2]), abs(base, a[1])));
-  }
-  if (!out.length) throw new Error('NABARD: no circulars found (page layout may have changed)');
-  return out;
-}
-
 const SOURCES = [['Income Tax', incomeTax], ['GST', gst], ['Customs', customs], ['RBI', rbi], ['SEBI', sebi], ['ICAI', icai],
-  ['NFRA', nfra], ['IRDAI', irdai], ['IBBI', ibbi], ['IFSCA', ifsca], ['NABARD', nabard]];
-// NABARD does not answer GitHub's servers outside India, so it is collected by a scheduled job on the firm's PC
-// in Pune (local/nabard-from-india.cmd) and skipped on GitHub. A failure there never sends an alert.
-const BEST_EFFORT = new Set(['NABARD']);
-const LOCAL_ONLY = new Set(['NABARD']);
+  ['NFRA', nfra], ['IRDAI', irdai], ['IBBI', ibbi], ['IFSCA', ifsca]];
+// NABARD was dropped on 2026-11-09: its website does not answer servers outside India. The page links to it instead.
+const BEST_EFFORT = new Set();
 const arg = process.argv.indexOf('--only');
 const ONLY = arg > 0 ? new Set(process.argv[arg + 1].split(',')) : null;
-const RUN = SOURCES.filter(([n]) => (ONLY ? ONLY.has(n) : !(process.env.GITHUB_ACTIONS && LOCAL_ONLY.has(n))));
+const RUN = SOURCES.filter(([n]) => (ONLY ? ONLY.has(n) : true));
 
 const old = fs.existsSync(FILE) ? JSON.parse(fs.readFileSync(FILE, 'utf8')) : { items: [], sources: {} };
 const byId = new Map(old.items.map((i) => [i.id, i]));

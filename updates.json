@@ -1,11 +1,6 @@
 {
  "checked": "2026-11-09T10:13:17.763Z",
  "sources": {
-  "NABARD": {
-   "ok": false,
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: www.nabard.org:443, timeout: 10000ms))",
-   "failures": 25
-  },
   "Income Tax": {
    "ok": true,
    "found": 10,
@@ -137,13 +132,6 @@
    "date": "2026-11-04",
    "text": "Notification: Notification enabling Operating lease including any hybrid of operating and financial lease of \"GPU and connected data centre equipment\" as financial product",
    "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=850da50e42b9c192894a42a7d2ca046f&fileName=Notification_on_GPU_and_connected_data_centre_equipmentas_a_financial_product_in_IFSC_20261104_1129.pdf&TitleName=Notification"
-  },
-  {
-   "id": "2f6dd02f664f",
-   "source": "NABARD",
-   "date": "2026-11-04",
-   "text": "Support for on-boarding Regional Rural Banks and Rural Cooperative Banks as Merchant Acquirer in UPI",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/1792210769Cir_257_E.PDF"
   },
   {
    "id": "b62ea22e5c99",
@@ -601,20 +589,6 @@
    "url": "https://resource.cdn.icai.org/94538exam-aps6491.pdf"
   },
   {
-   "id": "ca39d12960e0",
-   "source": "NABARD",
-   "date": "2026-10-09",
-   "text": "Long-term refinance for investment credit for agriculture-Long Term Rural Credit Fund (LTRCF)-Regional Rural Banks (RRBs)",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/1174204470Cir_244_E.PDF"
-  },
-  {
-   "id": "21fbd4666f92",
-   "source": "NABARD",
-   "date": "2026-10-08",
-   "text": "Provision of Short-Term (ST) refinance by NABARD to State Cooperative Banks for financing Seasonal Agricultural Operations (SAO) and Additional Seasonal Agricultural Operations (ASAO)– Operational Guidelines",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/16198294Cir_217_E.PDF"
-  },
-  {
    "id": "2d7d35d7e3d0",
    "source": "ICAI",
    "date": "2026-10-05",
@@ -627,13 +601,6 @@
    "date": "2026-10-05",
    "text": "Public Notice inviting claim within 15 days regarding proposed purchase of land admeasuring 558.82 Square Meter (6012.90 Square Feet) situated at Survey No. 90/1/97/1, bearing Plot No. 39, Sw. Baba Mhaiskar Nagar, Dhami Road, Sangli-Miraj-Kupwad Municipal Corporation, Sangli City, Sangli District, Maharashtra - 416416 by ICAI.",
    "url": "https://resource.cdn.icai.org/94396pnidc250926.pdf"
-  },
-  {
-   "id": "9787e880ecd9",
-   "source": "NABARD",
-   "date": "2026-10-05",
-   "text": "Performance of RRBs – Monitoring (RRBs in Focus)",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/1188182157Cir_238_E.PDF"
   },
   {
    "id": "a692b7644cff",
@@ -650,13 +617,6 @@
    "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d045999f71638&fileName=Circular_on_Extension_of_timeline_for_completion_of_Certification_Course_by_KMPs_and_other_employees_of_CMIs_in_IFSC_20260930_0650.pdf&TitleName=Circular"
   },
   {
-   "id": "bd5a5b9810c9",
-   "source": "NABARD",
-   "date": "2026-09-30",
-   "text": "Operational Guidelines for Schematic Lending under Long-Term Refinance to Small Finance Banks (SFBs)",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/792515614Cir_235_E.PDF"
-  },
-  {
    "id": "800705614489",
    "source": "IFSCA",
    "date": "2026-09-29",
@@ -671,25 +631,11 @@
    "url": "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-09/Circular-7-2026.pdf"
   },
   {
-   "id": "67df5ccda61e",
-   "source": "NABARD",
-   "date": "2026-09-29",
-   "text": "Credit Limits to StCBs/CCBs for Financing the Working Capital requirements of Primary/Apex/Regional Weavers Cooperative Societies, etc. – Operational guidelines for the year 2026-27",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/129528866Cir_223_E.PDF"
-  },
-  {
    "id": "dfda9f78d813",
    "source": "Customs",
    "date": "2026-09-28",
    "text": "Circular 44/2026: Establishment of a Special Notified Zone (SNZ) at Surat International Diatrade Centre (SIDC), 2nd Floor, Tower-B, Surat Diamond Bourse, Khajod, Surat.",
    "url": "https://taxinformation.cbic.gov.in/"
-  },
-  {
-   "id": "fe28cdebfd7d",
-   "source": "NABARD",
-   "date": "2026-09-28",
-   "text": "Provision of short-term refinance for financing Seasonal Agricultural Operations - Financing of PACS/Ceded Societies through Scheduled Commercial Banks -2026-27",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/185796915Cir_231_E.PDF"
   },
   {
    "id": "1f77b9320766",
@@ -704,13 +650,6 @@
    "date": "2026-09-25",
    "text": "Circular: Framework for differential distribution in Venture Capital Schemes and Restricted Schemes to facilitate blended finance and other fund structures",
    "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d045999d9838b&fileName=Regulatory_Framework_for_Differential_Distribution_final_20260925_0214.pdf&TitleName=Circular"
-  },
-  {
-   "id": "cf36849d6a90",
-   "source": "NABARD",
-   "date": "2026-09-25",
-   "text": "Withdrawal of Specified NABARD Guidance Notes Consequent upon Issuance of RBI Master Directions",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/Cir_233_E.PDF"
   },
   {
    "id": "0fc2e5bb0286",
@@ -753,13 +692,6 @@
    "date": "2026-09-23",
    "text": "Schedule of ISA AT, November 2026",
    "url": "https://resource.cdn.icai.org/94358exam-aps6372-isa-at-nov2026.pdf"
-  },
-  {
-   "id": "237117309a29",
-   "source": "NABARD",
-   "date": "2026-09-23",
-   "text": "Provision of Short-Term (ST) refinance by NABARD to Regional Rural Banks (RRBs) for financing Seasonal Agricultural Operations (SAO) and Additional SAO – Operational Guidelines",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/431795162Cir_218_E.PDF"
   },
   {
    "id": "304115580500",
@@ -816,13 +748,6 @@
    "date": "2026-09-08",
    "text": "Circular: Amendment to the Circular titled “Master Circular for Credit Rating Agencies in the IFSC”",
    "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=b64bc220b28b988fb41d0459998ab198&fileName=Amendment_to_the_Circular_titled_%E2%80%9CMaster_Circular_for_Credit_Rating_Agencies_in_the_IFSC__1__20260908_0616.pdf&TitleName=Circular"
-  },
-  {
-   "id": "06aa0a1dde91",
-   "source": "NABARD",
-   "date": "2026-09-08",
-   "text": "Sanction of term loans to State Governments under Section 27 of the NABARD Act, 1981 for Contribution to share capital of cooperative credit institutions – Operational Guidelines",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/2105544306Cir_212_E.PDF"
   },
   {
    "id": "1c0ff8efd8c3",
@@ -909,13 +834,6 @@
    "url": "https://taxinformation.cbic.gov.in/"
   },
   {
-   "id": "592e8afed5d7",
-   "source": "NABARD",
-   "date": "2026-08-14",
-   "text": "Operational Guidelines for Schematic Lending under Long Term Refinance to Scheduled Commercial Banks (Public Sector/Private Sector) & Foreign Banks",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/142249093Cir_186_E.PDF"
-  },
-  {
    "id": "1254d21adbe8",
    "source": "IFSCA",
    "date": "2026-08-10",
@@ -937,13 +855,6 @@
    "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=29709e474fe6b066fc0cb19f7dda5164&fileName=Specification_of_Certification_Course_for_the_employees_of_FMEs_under_IFSCA__Fund_Management__Regulations__2025_20260810_0652.pdf&TitleName=Circular"
   },
   {
-   "id": "768dd72c29bb",
-   "source": "NABARD",
-   "date": "2026-08-10",
-   "text": "Operational Guidelines for Schematic Lending under Long Term Refinance to Regional Rural Banks (RRBs)",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/1010457700Cir_189_E.PDF"
-  },
-  {
    "id": "d94dbd66f92c",
    "source": "IRDAI",
    "date": "2026-08-07",
@@ -963,13 +874,6 @@
    "date": "2026-08-06",
    "text": "Circular: Specification of Certification Course for KMPs and other employees of Capital Market Intermediaries under the IFSCA (Capital Market Intermediaries) Regulations, 2025",
    "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=29709e474fe6b066fc0cb19f7dc5f6a0&fileName=Circular_Certification_Course_for_KMPs_and_other_employees_of_CMIs_under_the_IFSCA__CMI_Reg_20260806_0641.pdf&TitleName=Circular"
-  },
-  {
-   "id": "735bcbbaf448",
-   "source": "NABARD",
-   "date": "2026-08-05",
-   "text": "Operational Guidelines for Schematic Lending under Long Term Refinance to State Cooperative Banks (StCBs)",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/367262910Cir_187_E.PDF"
   },
   {
    "id": "edad632cd0bc",
@@ -1005,13 +909,6 @@
    "date": "2026-07-23",
    "text": "Submission of Self-Contained Note and other related documents to the Office of the Insurance Ombudsmen",
    "url": "https://irdai.gov.in/document-detail?documentId=9681522"
-  },
-  {
-   "id": "7f4c3e77ed32",
-   "source": "NABARD",
-   "date": "2026-07-20",
-   "text": "Provision of Short-term refinance by NABARD to Small Finance Banks (SFB) – Fixed & Floating Rate of Interest – Operational Guidelines for the year 2026-27",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/1078300364Cir_184_E.PDF"
   },
   {
    "id": "88efe7002afb",
@@ -1063,13 +960,6 @@
    "url": "https://irdai.gov.in/document-detail?documentId=9613196"
   },
   {
-   "id": "421ce8d817b9",
-   "source": "NABARD",
-   "date": "2026-06-03",
-   "text": "Publication of Advisory and Alert Module on the Ensure (2.0) Portal",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/1947565754Cir_141_E.PDF"
-  },
-  {
    "id": "805694598cd1",
    "source": "IRDAI",
    "date": "2026-05-25",
@@ -1091,25 +981,11 @@
    "url": "https://irdai.gov.in/document-detail?documentId=9122615"
   },
   {
-   "id": "3ff1eb5e2f27",
-   "source": "NABARD",
-   "date": "2026-03-30",
-   "text": "Continuation of Modified Interest Subvention Scheme for Short Term Loans (agriculture and allied activities) during the year 2025-26",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/1344813148Cir_93_E.PDF"
-  },
-  {
    "id": "d114b0ad1f58",
    "source": "IRDAI",
    "date": "2026-03-25",
    "text": "Servicing to the policyholders – Special Measure for the current Financial Year 2025-26",
    "url": "https://irdai.gov.in/document-detail?documentId=9027284"
-  },
-  {
-   "id": "e1cd793e9879",
-   "source": "NABARD",
-   "date": "2026-03-17",
-   "text": "Guidelines on fixation of Scale of Finance (SoF)",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/636591633Cir_78_E.PDF"
   },
   {
    "id": "7b5a70b7bdfd",
@@ -1119,39 +995,11 @@
    "url": "https://irdai.gov.in/document-detail?documentId=8971093"
   },
   {
-   "id": "cf8fe6989776",
-   "source": "NABARD",
-   "date": "2026-03-13",
-   "text": "Provision of Short term refinance by NABARD to NBFCs including subsidiaries of NABARD - Operational Guidelines for the year 2025-26",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/649966254Cir_70_E.PDF"
-  },
-  {
-   "id": "6549c16f2bdb",
-   "source": "NABARD",
-   "date": "2026-03-10",
-   "text": "Provision of Additional Short-Term (ST) refinance by NABARD to Regional Rural Banks for financing Seasonal Agricultural Operations (SAO) @ Fixed Rate & Floating Rate – Operational Guidelines for F. Y. 2025-26 - Corrigendum",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/506875477Cir_62_E.PDF"
-  },
-  {
-   "id": "eb646f66ff3a",
-   "source": "NABARD",
-   "date": "2026-02-18",
-   "text": "Operational Guidelines for Schematic Lending under Long Term Refinance for F.Y 2025-26 – State Cooperative Banks (StCBs)",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/LT%20to%20StCB.pdf"
-  },
-  {
    "id": "47617cef5f9c",
    "source": "IRDAI",
    "date": "2026-02-12",
    "text": "Clarifications on provisions with respect to investment in Alternative Investment Funds(AIFs)",
    "url": "https://irdai.gov.in/document-detail?documentId=8760558"
-  },
-  {
-   "id": "140b8da56ef7",
-   "source": "NABARD",
-   "date": "2026-01-27",
-   "text": "Incentive Scheme for Customer Service Points (CSPs)/ Business Correspondents (BCs) of Banks operating in Northeastern (NE) and Hilly States/ UTs - Extension of the Scheme Period",
-   "url": "https://www.nabard.org/auth/writereaddata/tender/435934292Cir_10_E.PDF"
   },
   {
    "id": "22f77fdb440c",
