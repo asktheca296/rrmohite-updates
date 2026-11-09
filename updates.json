@@ -1,61 +1,70 @@
 {
- "checked": "2026-11-09T04:14:43.097Z",
+ "checked": "2026-11-09T07:44:04.381Z",
  "sources": {
+  "NABARD": {
+   "ok": false,
+   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: www.nabard.org:443, timeout: 10000ms))",
+   "failures": 25
+  },
   "Income Tax": {
    "ok": true,
    "found": 10,
    "added": 0,
    "failures": 0
   },
-  "NABARD": {
-   "ok": false,
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: www.nabard.org:443, timeout: 10000ms))",
-   "failures": 25
-  },
-  "IFSCA": {
-   "ok": false,
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: ifsca.gov.in:443, timeout: 10000ms))",
-   "failures": 1
-  },
-  "IBBI": {
-   "ok": false,
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: ibbi.gov.in:443, timeout: 10000ms))",
-   "failures": 1
-  },
-  "IRDAI": {
-   "ok": false,
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: irdai.gov.in:443, timeout: 10000ms))",
-   "failures": 1
-  },
-  "NFRA": {
-   "ok": false,
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: nfra.gov.in:443, timeout: 10000ms))",
-   "failures": 1
+  "RBI": {
+   "ok": true,
+   "found": 6,
+   "added": 0,
+   "failures": 0
   },
   "ICAI": {
-   "ok": false,
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: www.icai.org:443, timeout: 10000ms))",
-   "failures": 1
+   "ok": true,
+   "found": 10,
+   "added": 0,
+   "failures": 0
+  },
+  "NFRA": {
+   "ok": true,
+   "found": 6,
+   "added": 0,
+   "failures": 0
+  },
+  "IBBI": {
+   "ok": true,
+   "found": 5,
+   "added": 0,
+   "failures": 0
   },
   "SEBI": {
-   "ok": false,
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: www.sebi.gov.in:443, timeout: 10000ms))",
-   "failures": 1
+   "ok": true,
+   "found": 1,
+   "added": 0,
+   "failures": 0
   },
-  "RBI": {
-   "ok": false,
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: www.rbi.org.in:443, timeout: 10000ms))",
-   "failures": 1
+  "IRDAI": {
+   "ok": true,
+   "found": 20,
+   "added": 0,
+   "failures": 0
   },
-  "Customs": {
-   "ok": false,
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: taxinformation.cbic.gov.in:443, timeout: 10000ms))",
-   "failures": 1
+  "IFSCA": {
+   "ok": true,
+   "found": 50,
+   "added": 0,
+   "failures": 0
   },
   "GST": {
-   "ok": false,
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: taxinformation.cbic.gov.in:443, timeout: 10000ms))",
-   "failures": 1
+   "ok": true,
+   "found": 1302,
+   "added": 0,
+   "failures": 0
+  },
+  "Customs": {
+   "ok": true,
+   "found": 3899,
+   "added": 0,
+   "failures": 0
   }
  },
  "items": [
