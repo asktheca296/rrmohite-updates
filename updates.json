@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-09T07:44:04.381Z",
+ "checked": "2026-11-09T10:13:17.763Z",
  "sources": {
   "NABARD": {
    "ok": false,
@@ -12,15 +12,15 @@
    "added": 0,
    "failures": 0
   },
-  "RBI": {
-   "ok": true,
-   "found": 6,
-   "added": 0,
-   "failures": 0
-  },
   "ICAI": {
    "ok": true,
    "found": 10,
+   "added": 0,
+   "failures": 0
+  },
+  "RBI": {
+   "ok": true,
+   "found": 6,
    "added": 0,
    "failures": 0
   },
@@ -30,15 +30,15 @@
    "added": 0,
    "failures": 0
   },
-  "IBBI": {
-   "ok": true,
-   "found": 5,
-   "added": 0,
-   "failures": 0
-  },
   "SEBI": {
    "ok": true,
    "found": 1,
+   "added": 0,
+   "failures": 0
+  },
+  "IBBI": {
+   "ok": true,
+   "found": 5,
    "added": 0,
    "failures": 0
   },
