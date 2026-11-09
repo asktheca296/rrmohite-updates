@@ -1,7 +1,8 @@
 // Collects new notifications from official regulator sources into updates.json.
 // Runs on GitHub Actions every few hours; rrmohite.in/regulatory-updates reads the JSON.
 // Only official sites that allow automated reading are used; a site that refuses is left out.
-// Usage: node fetch.mjs
+// Usage: node fetch.mjs            (all sources; on GitHub Actions, NABARD is skipped)
+//        node fetch.mjs --only NABARD   (one source; used by the job on the firm's PC in India)
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 
@@ -186,14 +187,20 @@ async function nabard() {
 
 const SOURCES = [['Income Tax', incomeTax], ['GST', gst], ['Customs', customs], ['RBI', rbi], ['SEBI', sebi], ['ICAI', icai],
   ['NFRA', nfra], ['IRDAI', irdai], ['IBBI', ibbi], ['IFSCA', ifsca], ['NABARD', nabard]];
-// Tried every run, but a failure never sends an alert: NABARD does not answer GitHub's servers outside India
+// NABARD does not answer GitHub's servers outside India, so it is collected by a scheduled job on the firm's PC
+// in Pune (local/nabard-from-india.cmd) and skipped on GitHub. A failure there never sends an alert.
 const BEST_EFFORT = new Set(['NABARD']);
+const LOCAL_ONLY = new Set(['NABARD']);
+const arg = process.argv.indexOf('--only');
+const ONLY = arg > 0 ? new Set(process.argv[arg + 1].split(',')) : null;
+const RUN = SOURCES.filter(([n]) => (ONLY ? ONLY.has(n) : !(process.env.GITHUB_ACTIONS && LOCAL_ONLY.has(n))));
 
 const old = fs.existsSync(FILE) ? JSON.parse(fs.readFileSync(FILE, 'utf8')) : { items: [], sources: {} };
 const byId = new Map(old.items.map((i) => [i.id, i]));
-const sources = {};
+// Sources not run this time keep their last status
+const sources = Object.fromEntries(SOURCES.filter(([n]) => !RUN.some(([r]) => r === n) && old.sources?.[n]).map(([n]) => [n, old.sources[n]]));
 let alert = false;
-await Promise.all(SOURCES.map(async ([name, fn]) => {
+await Promise.all(RUN.map(async ([name, fn]) => {
   try {
     const found = (await fn()).filter((i) => i.date && i.text);
     found.sort((a, b) => b.date.localeCompare(a.date));
@@ -210,11 +217,17 @@ await Promise.all(SOURCES.map(async ([name, fn]) => {
   }
 }));
 
+// A one-source run that found nothing new and had no error before leaves the file alone (no empty commits)
+if (ONLY && RUN.every(([n]) => sources[n].ok && !sources[n].added && old.sources?.[n]?.ok)) {
+  console.log('No new entries.');
+  process.exit(0);
+}
+
 // Keep the newest entries of each regulator
 const keep = [];
 for (const [name] of SOURCES) keep.push(...[...byId.values()].filter((i) => i.source === name).sort((a, b) => b.date.localeCompare(a.date)).slice(0, PER_SOURCE));
 const items = keep.sort((a, b) => b.date.localeCompare(a.date) || a.source.localeCompare(b.source) || a.id.localeCompare(b.id));
-fs.writeFileSync(FILE, JSON.stringify({ checked: new Date().toISOString(), sources, items }, null, 1) + '\n');
-console.log(Object.entries(sources).map(([n, s]) => `${n}: ${s.ok ? `${s.found} found, ${s.added} new` : 'FAILED'}`).join('\n'));
+fs.writeFileSync(FILE, JSON.stringify({ checked: ONLY && old.checked ? old.checked : new Date().toISOString(), sources, items }, null, 1) + '\n');
+console.log(Object.entries(sources).filter(([n]) => RUN.some(([r]) => r === n)).map(([n, s]) => `${n}: ${s.ok ? `${s.found} found, ${s.added} new` : 'FAILED'}`).join('\n'));
 // A source failing for about 12 hours fails the run, so GitHub emails the account owner.
 if (alert) process.exit(1);
