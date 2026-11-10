@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-10T13:23:43.635Z",
+ "checked": "2026-11-10T16:03:15.915Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -22,7 +22,7 @@
   "SEBI": {
    "ok": true,
    "found": 4,
-   "added": 3,
+   "added": 0,
    "failures": 0
   },
   "NFRA": {
