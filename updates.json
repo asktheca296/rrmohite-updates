@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-10T10:09:08.800Z",
+ "checked": "2026-11-10T13:23:43.635Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -19,15 +19,15 @@
    "added": 0,
    "failures": 0
   },
+  "SEBI": {
+   "ok": true,
+   "found": 4,
+   "added": 3,
+   "failures": 0
+  },
   "NFRA": {
    "ok": true,
    "found": 6,
-   "added": 0,
-   "failures": 0
-  },
-  "SEBI": {
-   "ok": true,
-   "found": 1,
    "added": 0,
    "failures": 0
   },
@@ -63,6 +63,27 @@
   }
  },
  "items": [
+  {
+   "id": "290890495634",
+   "source": "SEBI",
+   "date": "2026-11-10",
+   "text": "Prohibitory Order No. 1583 of 2026 issued against CAT Technologies Limited associated with RC 4398 of 2021 in the matter of CAT Technologies Ltd.",
+   "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/prohibitory-order-no-1583-of-2026-issued-against-cat-technologies-limited-associated-with-rc-4398-of-2021-in-the-matter-of-cat-technologies-ltd-_105693.html"
+  },
+  {
+   "id": "42f9327e79fe",
+   "source": "SEBI",
+   "date": "2026-11-10",
+   "text": "Prohibitory Order No. 1581 of 2026 issued against Dhiraj Kumar Jaiswal associated with RC 4391 of 2021 in the matter of CAT Technologies Ltd.",
+   "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/prohibitory-order-no-1581-of-2026-issued-against-dhiraj-kumar-jaiswal-associated-with-rc-4391-of-2021-in-the-matter-of-cat-technologies-ltd-_105689.html"
+  },
+  {
+   "id": "cdf9a6639f98",
+   "source": "SEBI",
+   "date": "2026-11-10",
+   "text": "Prohibitory Order No. 1582 of 2026 issued against Dinesh Kumar Jaiswal associated with RC 4395 of 2021 in the matter of CAT Technologies Ltd.",
+   "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/prohibitory-order-no-1582-of-2026-issued-against-dinesh-kumar-jaiswal-associated-with-rc-4395-of-2021-in-the-matter-of-cat-technologies-ltd-_105691.html"
+  },
   {
    "id": "f590627fcacb",
    "source": "Income Tax",
