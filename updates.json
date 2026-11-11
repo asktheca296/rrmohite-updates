@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-11T10:14:45.315Z",
+ "checked": "2026-11-11T13:28:24.911Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -7,15 +7,15 @@
    "added": 0,
    "failures": 0
   },
+  "RBI": {
+   "ok": true,
+   "found": 7,
+   "added": 1,
+   "failures": 0
+  },
   "ICAI": {
    "ok": true,
    "found": 10,
-   "added": 0,
-   "failures": 0
-  },
-  "RBI": {
-   "ok": true,
-   "found": 6,
    "added": 0,
    "failures": 0
   },
@@ -27,8 +27,8 @@
   },
   "SEBI": {
    "ok": true,
-   "found": 4,
-   "added": 0,
+   "found": 5,
+   "added": 1,
    "failures": 0
   },
   "IBBI": {
@@ -63,6 +63,20 @@
   }
  },
  "items": [
+  {
+   "id": "35ea2a3c55ad",
+   "source": "RBI",
+   "date": "2026-11-11",
+   "text": "Reserve Bank of India (Domestic Money Transfer) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13752&Mode=0"
+  },
+  {
+   "id": "89d71e791e84",
+   "source": "SEBI",
+   "date": "2026-11-11",
+   "text": "Reporting requirement under Foreign Account Tax Compliance Act (FATCA) and Common Reporting Standard (CRS) revised through Income-Tax Act, 2025 read with Income-Tax Rules, 2026",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/reporting-requirement-under-foreign-account-tax-compliance-act-fatca-and-common-reporting-standard-crs-revised-through-income-tax-act-2025-read-with-income-tax-rules-2026_105705.html"
+  },
   {
    "id": "290890495634",
    "source": "SEBI",
