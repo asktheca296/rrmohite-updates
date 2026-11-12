@@ -1,12 +1,6 @@
 {
- "checked": "2026-11-12T16:19:18.511Z",
+ "checked": "2026-11-12T19:13:52.876Z",
  "sources": {
-  "RBI": {
-   "ok": true,
-   "found": 7,
-   "added": 0,
-   "failures": 0
-  },
   "Income Tax": {
    "ok": true,
    "found": 10,
@@ -16,12 +10,6 @@
   "ICAI": {
    "ok": true,
    "found": 10,
-   "added": 0,
-   "failures": 0
-  },
-  "SEBI": {
-   "ok": true,
-   "found": 6,
    "added": 0,
    "failures": 0
   },
@@ -37,9 +25,21 @@
    "added": 0,
    "failures": 0
   },
+  "SEBI": {
+   "ok": true,
+   "found": 6,
+   "added": 0,
+   "failures": 0
+  },
   "IRDAI": {
    "ok": true,
    "found": 20,
+   "added": 0,
+   "failures": 0
+  },
+  "RBI": {
+   "ok": true,
+   "found": 7,
    "added": 0,
    "failures": 0
   },
