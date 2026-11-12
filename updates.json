@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-12T07:36:50.173Z",
+ "checked": "2026-11-12T10:19:43.913Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -7,9 +7,9 @@
    "added": 0,
    "failures": 0
   },
-  "ICAI": {
+  "SEBI": {
    "ok": true,
-   "found": 10,
+   "found": 5,
    "added": 0,
    "failures": 0
   },
@@ -19,9 +19,9 @@
    "added": 0,
    "failures": 0
   },
-  "SEBI": {
+  "ICAI": {
    "ok": true,
-   "found": 5,
+   "found": 10,
    "added": 0,
    "failures": 0
   },
