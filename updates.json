@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-12T10:19:43.913Z",
+ "checked": "2026-11-12T13:30:21.857Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -9,8 +9,8 @@
   },
   "SEBI": {
    "ok": true,
-   "found": 5,
-   "added": 0,
+   "found": 6,
+   "added": 1,
    "failures": 0
   },
   "RBI": {
@@ -46,13 +46,13 @@
   "IFSCA": {
    "ok": true,
    "found": 50,
-   "added": 0,
+   "added": 2,
    "failures": 0
   },
   "GST": {
    "ok": true,
-   "found": 1302,
-   "added": 0,
+   "found": 1301,
+   "added": 1,
    "failures": 0
   },
   "Customs": {
@@ -63,6 +63,27 @@
   }
  },
  "items": [
+  {
+   "id": "524ef161dd7d",
+   "source": "IFSCA",
+   "date": "2026-11-12",
+   "text": "Circular: Clarification on validity of CoR issued to IIIO",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=850da50e42b9c192894a42a7d2df2994&fileName=2026_11_12_IIIO_Circular___Validity_of_CoR_20261112_0615.pdf&TitleName=Circular"
+  },
+  {
+   "id": "e716dab905f7",
+   "source": "IFSCA",
+   "date": "2026-11-12",
+   "text": "Circular: Format for reporting of non-compliance(s) under the IFSCA (Bullion Market) Regulations, 2025",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=850da50e42b9c192894a42a7d2dee585&fileName=Circular_on_Format_for_reporting_of_non_compliance_s__12th_November_2026_20261112_0500.pdf&TitleName=Circular"
+  },
+  {
+   "id": "a2b7758e5b1e",
+   "source": "SEBI",
+   "date": "2026-11-12",
+   "text": "Niveshak Shivir to be held on November 17, 2026 at New Delhi",
+   "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/niveshak-shivir-to-be-held-on-november-17-2026-at-new-delhi_105731.html"
+  },
   {
    "id": "35ea2a3c55ad",
    "source": "RBI",
@@ -904,25 +925,11 @@
    "url": "https://taxinformation.cbic.gov.in/"
   },
   {
-   "id": "96f608f2b455",
-   "source": "IFSCA",
-   "date": "2026-08-06",
-   "text": "Circular: Specification of Certification Course for KMPs and other employees of Capital Market Intermediaries under the IFSCA (Capital Market Intermediaries) Regulations, 2025",
-   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=29709e474fe6b066fc0cb19f7dc5f6a0&fileName=Circular_Certification_Course_for_KMPs_and_other_employees_of_CMIs_under_the_IFSCA__CMI_Reg_20260806_0641.pdf&TitleName=Circular"
-  },
-  {
    "id": "edad632cd0bc",
    "source": "IRDAI",
    "date": "2026-08-04",
    "text": "Circular on natural disaster affecting four districts of Assam",
    "url": "https://irdai.gov.in/document-detail?documentId=9706554"
-  },
-  {
-   "id": "f06d83de6644",
-   "source": "IFSCA",
-   "date": "2026-08-03",
-   "text": "Circular: Modifications under the International Financial Services Centres Authority (Anti Money Laundering, Counter-Terrorist Financing and Know Your Customer) Guidelines, 2022",
-   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=29709e474fe6b066fc0cb19f7db05701&fileName=circular_with_CBWTR_amendment_20260804_1101.pdf&TitleName=Circular"
   },
   {
    "id": "9f5f8297fba6",
