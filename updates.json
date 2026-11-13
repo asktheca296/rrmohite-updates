@@ -1,7 +1,13 @@
 {
- "checked": "2026-11-13T10:15:16.520Z",
+ "checked": "2026-11-13T13:27:22.513Z",
  "sources": {
   "Income Tax": {
+   "ok": true,
+   "found": 10,
+   "added": 0,
+   "failures": 0
+  },
+  "ICAI": {
    "ok": true,
    "found": 10,
    "added": 0,
@@ -13,33 +19,27 @@
    "added": 0,
    "failures": 0
   },
-  "SEBI": {
-   "ok": true,
-   "found": 6,
-   "added": 0,
-   "failures": 0
-  },
-  "ICAI": {
-   "ok": true,
-   "found": 10,
-   "added": 0,
-   "failures": 0
-  },
   "NFRA": {
    "ok": true,
    "found": 6,
    "added": 0,
    "failures": 0
   },
-  "IRDAI": {
+  "SEBI": {
    "ok": true,
-   "found": 20,
-   "added": 0,
+   "found": 12,
+   "added": 11,
    "failures": 0
   },
   "IBBI": {
    "ok": true,
    "found": 5,
+   "added": 0,
+   "failures": 0
+  },
+  "IRDAI": {
+   "ok": true,
+   "found": 20,
    "added": 0,
    "failures": 0
   },
@@ -63,6 +63,83 @@
   }
  },
  "items": [
+  {
+   "id": "14d068110f3b",
+   "source": "SEBI",
+   "date": "2026-11-13",
+   "text": "General Remittance Order dated November 13, 2026 issued against M Sasikala under RC No.7699 of 2024 in the matter of Arvind Remedies Ltd.",
+   "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-m-sasikala-under-rc-no-7699-of-2024-in-the-matter-of-arvind-remedies-ltd-_105759.html"
+  },
+  {
+   "id": "2161023545ef",
+   "source": "SEBI",
+   "date": "2026-11-13",
+   "text": "General Remittance Order dated November 13, 2026 issued against S Sengolancy Beaula under RC No. 7711 of 2024 in the matter of Arvind Remedies Ltd.",
+   "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-s-sengolancy-beaula-under-rc-no-7711-of-2024-in-the-matter-of-arvind-remedies-ltd-_105770.html"
+  },
+  {
+   "id": "2262eced5246",
+   "source": "SEBI",
+   "date": "2026-11-13",
+   "text": "General Remittance Order dated November 13, 2026 issued against Raja P under RC No. 7704 of 2024 in the matter of Arvind Remedies Ltd.",
+   "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-raja-p-under-rc-no-7704-of-2024-in-the-matter-of-arvind-remedies-ltd-_105761.html"
+  },
+  {
+   "id": "31c4b223e422",
+   "source": "SEBI",
+   "date": "2026-11-13",
+   "text": "General Remittance Order dated November 13, 2026 issued against Subhalakshmi M S under RC No. 7712 of 2024 in the matter of Arvind Remedies Ltd.",
+   "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-subhalakshmi-m-s-under-rc-no-7712-of-2024-in-the-matter-of-arvind-remedies-ltd-_105772.html"
+  },
+  {
+   "id": "40f7ae535905",
+   "source": "SEBI",
+   "date": "2026-11-13",
+   "text": "General Remittance Order dated November 13, 2026 issued against Murali Prakash Naidu under RC No. 7707 of 2024 in the matter of Arvind Remedies Ltd",
+   "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-murali-prakash-naidu-under-rc-no-7707-of-2024-in-the-matter-of-arvind-remedies-ltd_105765.html"
+  },
+  {
+   "id": "4bc9b568de6b",
+   "source": "SEBI",
+   "date": "2026-11-13",
+   "text": "General Remittance Order dated November 13, 2026 issued against S Nagarajan under RC No. 7696 of 2024 in the matter of Arvind Remedies Ltd.",
+   "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-s-nagarajan-under-rc-no-7696-of-2024-in-the-matter-of-arvind-remedies-ltd-_105755.html"
+  },
+  {
+   "id": "99661a8c2ad0",
+   "source": "SEBI",
+   "date": "2026-11-13",
+   "text": "General Remittance Order dated November 13, 2026 issued against Varalakshmi P under RC No. 7695 of 2024 in the matter of Arvind Remedies Ltd.",
+   "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-varalakshmi-p-under-rc-no-7695-of-2024-in-the-matter-of-arvind-remedies-ltd-_105753.html"
+  },
+  {
+   "id": "9f4f10890d43",
+   "source": "SEBI",
+   "date": "2026-11-13",
+   "text": "General Remittance Order dated November 13, 2026 issued against K Manikandan under RC No. 7698 of 2024 in the matter of Arvind Remedies Ltd.",
+   "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-k-manikandan-under-rc-no-7698-of-2024-in-the-matter-of-arvind-remedies-ltd-_105757.html"
+  },
+  {
+   "id": "ab7fff6bcbe3",
+   "source": "SEBI",
+   "date": "2026-11-13",
+   "text": "General Remittance Order dated November 13, 2026 issued against M Sethujanani under RC No. 7709 of 2024 in the matter of Arvind Remedies Ltd.",
+   "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-m-sethujanani-under-rc-no-7709-of-2024-in-the-matter-of-arvind-remedies-ltd-_105769.html"
+  },
+  {
+   "id": "bc7ecbed3914",
+   "source": "SEBI",
+   "date": "2026-11-13",
+   "text": "General Remittance Order dated November 13, 2026 issued against Shreyanse Finance Ltd under RC No. 7708 of 2024 in the matter of Arvind Remedies Ltd.",
+   "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-shreyanse-finance-ltd-under-rc-no-7708-of-2024-in-the-matter-of-arvind-remedies-ltd-_105767.html"
+  },
+  {
+   "id": "cca3d9c5fb2a",
+   "source": "SEBI",
+   "date": "2026-11-13",
+   "text": "General Remittance Order dated November 13, 2026 issued against Solomon Y under RC No. 7706 of 2024 in the matter of Arvind Remedies Ltd.",
+   "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/general-remittance-order-dated-november-13-2026-issued-against-solomon-y-under-rc-no-7706-of-2024-in-the-matter-of-arvind-remedies-ltd-_105763.html"
+  },
   {
    "id": "524ef161dd7d",
    "source": "IFSCA",
