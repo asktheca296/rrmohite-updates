@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-13T07:34:47.365Z",
+ "checked": "2026-11-13T10:15:16.520Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -10,6 +10,12 @@
   "RBI": {
    "ok": true,
    "found": 7,
+   "added": 0,
+   "failures": 0
+  },
+  "SEBI": {
+   "ok": true,
+   "found": 6,
    "added": 0,
    "failures": 0
   },
@@ -25,21 +31,15 @@
    "added": 0,
    "failures": 0
   },
-  "IBBI": {
-   "ok": true,
-   "found": 5,
-   "added": 0,
-   "failures": 0
-  },
-  "SEBI": {
-   "ok": true,
-   "found": 6,
-   "added": 0,
-   "failures": 0
-  },
   "IRDAI": {
    "ok": true,
    "found": 20,
+   "added": 0,
+   "failures": 0
+  },
+  "IBBI": {
+   "ok": true,
+   "found": 5,
    "added": 0,
    "failures": 0
   },
