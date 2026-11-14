@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-14T19:00:24.242Z",
+ "checked": "2026-11-14T21:52:23.677Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -19,15 +19,15 @@
    "added": 0,
    "failures": 0
   },
-  "NFRA": {
-   "ok": true,
-   "found": 6,
-   "added": 0,
-   "failures": 0
-  },
   "IBBI": {
    "ok": true,
    "found": 5,
+   "added": 0,
+   "failures": 0
+  },
+  "NFRA": {
+   "ok": true,
+   "found": 6,
    "added": 0,
    "failures": 0
   },
