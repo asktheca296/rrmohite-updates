@@ -1,7 +1,13 @@
 {
- "checked": "2026-11-14T01:21:07.920Z",
+ "checked": "2026-11-14T04:07:42.776Z",
  "sources": {
   "Income Tax": {
+   "ok": true,
+   "found": 10,
+   "added": 0,
+   "failures": 0
+  },
+  "ICAI": {
    "ok": true,
    "found": 10,
    "added": 0,
@@ -13,21 +19,15 @@
    "added": 0,
    "failures": 0
   },
-  "ICAI": {
+  "NFRA": {
    "ok": true,
-   "found": 10,
+   "found": 6,
    "added": 0,
    "failures": 0
   },
   "SEBI": {
    "ok": true,
    "found": 12,
-   "added": 0,
-   "failures": 0
-  },
-  "NFRA": {
-   "ok": true,
-   "found": 6,
    "added": 0,
    "failures": 0
   },
