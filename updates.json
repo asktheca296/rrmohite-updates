@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-14T09:59:31.209Z",
+ "checked": "2026-11-14T13:10:08.609Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -7,15 +7,15 @@
    "added": 0,
    "failures": 0
   },
+  "ICAI": {
+   "ok": true,
+   "found": 11,
+   "added": 1,
+   "failures": 0
+  },
   "RBI": {
    "ok": true,
    "found": 7,
-   "added": 0,
-   "failures": 0
-  },
-  "ICAI": {
-   "ok": true,
-   "found": 10,
    "added": 0,
    "failures": 0
   },
@@ -63,6 +63,13 @@
   }
  },
  "items": [
+  {
+   "id": "4948044d8ac4",
+   "source": "ICAI",
+   "date": "2026-11-14",
+   "text": "Advanced Integrated Course on Information Technology and Soft Skills (Advanced ICITSS) - Adv. Information Technology Test – Computer Based Mode (CBT)",
+   "url": "https://resource.cdn.icai.org/95117exam141126.pdf"
+  },
   {
    "id": "14d068110f3b",
    "source": "SEBI",
