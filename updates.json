@@ -1,16 +1,11 @@
 {
- "checked": "2026-11-16T04:51:14.365Z",
+ "checked": "2026-11-16T09:02:09.387Z",
  "sources": {
   "Income Tax": {
    "ok": true,
    "found": 10,
    "added": 0,
    "failures": 0
-  },
-  "SEBI": {
-   "ok": false,
-   "error": "SEBI: feed has no items",
-   "failures": 9
   },
   "RBI": {
    "ok": true,
@@ -23,6 +18,11 @@
    "found": 11,
    "added": 0,
    "failures": 0
+  },
+  "SEBI": {
+   "ok": false,
+   "error": "SEBI: feed has no items",
+   "failures": 10
   },
   "IBBI": {
    "ok": true,
