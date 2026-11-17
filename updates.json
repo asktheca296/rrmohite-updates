@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-17T13:28:57.646Z",
+ "checked": "2026-11-17T16:12:42.728Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -7,20 +7,20 @@
    "added": 0,
    "failures": 0
   },
-  "ICAI": {
+  "RBI": {
    "ok": true,
-   "found": 11,
+   "found": 7,
    "added": 0,
    "failures": 0
   },
   "SEBI": {
    "ok": false,
    "error": "SEBI: feed has no items",
-   "failures": 19
+   "failures": 20
   },
-  "NFRA": {
+  "ICAI": {
    "ok": true,
-   "found": 6,
+   "found": 11,
    "added": 0,
    "failures": 0
   },
@@ -30,9 +30,9 @@
    "added": 0,
    "failures": 0
   },
-  "RBI": {
+  "NFRA": {
    "ok": true,
-   "found": 7,
+   "found": 6,
    "added": 0,
    "failures": 0
   },
@@ -49,10 +49,9 @@
    "failures": 0
   },
   "GST": {
-   "ok": true,
-   "found": 1301,
-   "added": 1,
-   "failures": 0
+   "ok": false,
+   "error": "fetch failed (UND_ERR_SOCKET other side closed)",
+   "failures": 1
   },
   "Customs": {
    "ok": true,
