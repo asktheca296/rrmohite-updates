@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-18T01:34:34.971Z",
+ "checked": "2026-11-18T04:12:41.292Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -7,16 +7,16 @@
    "added": 0,
    "failures": 0
   },
-  "SEBI": {
-   "ok": false,
-   "error": "SEBI: feed has no items",
-   "failures": 23
-  },
   "RBI": {
    "ok": true,
    "found": 7,
    "added": 0,
    "failures": 0
+  },
+  "SEBI": {
+   "ok": false,
+   "error": "SEBI: feed has no items",
+   "failures": 24
   },
   "ICAI": {
    "ok": true,
@@ -24,9 +24,9 @@
    "added": 0,
    "failures": 0
   },
-  "NFRA": {
+  "IBBI": {
    "ok": true,
-   "found": 6,
+   "found": 3,
    "added": 0,
    "failures": 0
   },
@@ -36,9 +36,9 @@
    "added": 0,
    "failures": 0
   },
-  "IBBI": {
+  "NFRA": {
    "ok": true,
-   "found": 3,
+   "found": 6,
    "added": 0,
    "failures": 0
   },
