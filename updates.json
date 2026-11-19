@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-19T07:38:38.818Z",
+ "checked": "2026-11-19T10:22:24.874Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -13,16 +13,16 @@
    "added": 0,
    "failures": 0
   },
-  "SEBI": {
-   "ok": false,
-   "error": "SEBI: feed has no items",
-   "failures": 33
-  },
   "ICAI": {
    "ok": true,
    "found": 11,
    "added": 0,
    "failures": 0
+  },
+  "SEBI": {
+   "ok": false,
+   "error": "SEBI: feed has no items",
+   "failures": 34
   },
   "IBBI": {
    "ok": true,
@@ -36,21 +36,21 @@
    "added": 0,
    "failures": 0
   },
-  "IFSCA": {
-   "ok": true,
-   "found": 50,
-   "added": 0,
-   "failures": 0
-  },
   "NFRA": {
    "ok": true,
    "found": 6,
    "added": 0,
    "failures": 0
   },
+  "IFSCA": {
+   "ok": true,
+   "found": 50,
+   "added": 0,
+   "failures": 0
+  },
   "GST": {
    "ok": true,
-   "found": 1301,
+   "found": 1302,
    "added": 1,
    "failures": 0
   },
@@ -62,6 +62,13 @@
   }
  },
  "items": [
+  {
+   "id": "10f0f3da7396",
+   "source": "GST",
+   "date": "2026-11-19",
+   "text": "Corrigendum for CGST Amendment rules 2026 issued vide notification 05/2026-Central Tax",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
   {
    "id": "4948044d8ac4",
    "source": "ICAI",
@@ -606,13 +613,6 @@
    "source": "GST",
    "date": "2026-10-26",
    "text": "Circular 257/03/2026-GST: Guidelines for the handling of applications for GST registration.",
-   "url": "https://taxinformation.cbic.gov.in/"
-  },
-  {
-   "id": "3058f50aa6d0",
-   "source": "GST",
-   "date": "2026-10-26",
-   "text": "Circular 258/04/2026-GST: Clarification on issues related to demand, adjudication and appeal proceedings under the CGST Act, 2017.",
    "url": "https://taxinformation.cbic.gov.in/"
   },
   {
