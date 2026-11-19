@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-18T22:05:18.777Z",
+ "checked": "2026-11-19T01:30:40.842Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -34,7 +34,7 @@
   "SEBI": {
    "ok": false,
    "error": "SEBI: feed has no items",
-   "failures": 30
+   "failures": 31
   },
   "IRDAI": {
    "ok": true,
