@@ -1,15 +1,9 @@
 {
- "checked": "2026-11-20T16:12:58.328Z",
+ "checked": "2026-11-20T19:18:52.591Z",
  "sources": {
   "Income Tax": {
    "ok": true,
    "found": 10,
-   "added": 0,
-   "failures": 0
-  },
-  "RBI": {
-   "ok": true,
-   "found": 7,
    "added": 0,
    "failures": 0
   },
@@ -19,20 +13,26 @@
    "added": 0,
    "failures": 0
   },
-  "SEBI": {
-   "ok": false,
-   "error": "SEBI: feed has no items",
-   "failures": 2
-  },
-  "IBBI": {
+  "RBI": {
    "ok": true,
-   "found": 3,
+   "found": 7,
    "added": 0,
    "failures": 0
   },
   "NFRA": {
    "ok": true,
    "found": 6,
+   "added": 0,
+   "failures": 0
+  },
+  "SEBI": {
+   "ok": false,
+   "error": "SEBI: feed has no items",
+   "failures": 3
+  },
+  "IBBI": {
+   "ok": true,
+   "found": 3,
    "added": 0,
    "failures": 0
   },
@@ -56,12 +56,26 @@
   },
   "Customs": {
    "ok": true,
-   "found": 3900,
-   "added": 0,
+   "found": 3902,
+   "added": 2,
    "failures": 0
   }
  },
  "items": [
+  {
+   "id": "8f532f11b32e",
+   "source": "Customs",
+   "date": "2026-11-20",
+   "text": "Circular 48/2026: Implementation of the Diamond Imprest Authorisation (DIA) Scheme - Notification No. 37/2026-Customs dated 20.11.2026",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "e9bd0e3adabf",
+   "source": "Customs",
+   "date": "2026-11-20",
+   "text": "Notification 37/2026-Customs: Exemption from Applicable Customs Duty and Integrated Tax on Import of Natural Cut and Polished Diamonds under the Diamond Imprest Authorisation Scheme (DIA)",
+   "url": "https://taxinformation.cbic.gov.in/"
+  },
   {
    "id": "10f0f3da7396",
    "source": "GST",
@@ -1055,20 +1069,6 @@
    "date": "2026-07-14",
    "text": "Clarifications on implementation of Indian Accounting Standards",
    "url": "https://irdai.gov.in/document-detail?documentId=9658463"
-  },
-  {
-   "id": "c067d080757f",
-   "source": "Customs",
-   "date": "2026-07-13",
-   "text": "Circular 33/2026: Implementation of self-certification of Origin Declarations under the India-United Kingdom Comprehensive Economic and Trade Agreement (India-UK CETA)",
-   "url": "https://taxinformation.cbic.gov.in/"
-  },
-  {
-   "id": "66b02f91fdb9",
-   "source": "Customs",
-   "date": "2026-07-11",
-   "text": "Circular 32/2026: Discontinuation of submission of manual documents/statements in respect of containers imported under Notification No. 104/94-Customs dated 16.03.1994 by the Shipping Lines",
-   "url": "https://taxinformation.cbic.gov.in/"
   },
   {
    "id": "c849ec80de6c",
