@@ -1,15 +1,9 @@
 {
- "checked": "2026-11-20T07:36:18.719Z",
+ "checked": "2026-11-20T10:22:22.396Z",
  "sources": {
   "Income Tax": {
    "ok": true,
    "found": 10,
-   "added": 0,
-   "failures": 0
-  },
-  "RBI": {
-   "ok": true,
-   "found": 7,
    "added": 0,
    "failures": 0
   },
@@ -19,9 +13,9 @@
    "added": 0,
    "failures": 0
   },
-  "NFRA": {
+  "RBI": {
    "ok": true,
-   "found": 6,
+   "found": 7,
    "added": 0,
    "failures": 0
   },
@@ -31,15 +25,22 @@
    "added": 0,
    "failures": 0
   },
-  "SEBI": {
-   "ok": false,
-   "error": "SEBI: feed has no items",
-   "failures": 42
+  "NFRA": {
+   "ok": true,
+   "found": 6,
+   "added": 0,
+   "failures": 0
   },
   "IRDAI": {
    "ok": true,
    "found": 20,
    "added": 0,
+   "failures": 0
+  },
+  "SEBI": {
+   "ok": true,
+   "found": 4,
+   "added": 4,
    "failures": 0
   },
   "IFSCA": {
@@ -68,6 +69,34 @@
    "date": "2026-11-19",
    "text": "Corrigendum for CGST Amendment rules 2026 issued vide notification 05/2026-Central Tax",
    "url": "https://taxinformation.cbic.gov.in/"
+  },
+  {
+   "id": "b7a6209ee781",
+   "source": "SEBI",
+   "date": "2026-11-19",
+   "text": "SEBI hosts IOSCO’s Asia-Pacific Regional Committee Regulatory Roundtable on Market Infrastructure Institutions",
+   "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/sebi-hosts-iosco-s-asia-pacific-regional-committee-regulatory-roundtable-on-market-infrastructure-institutions_105848.html"
+  },
+  {
+   "id": "8d88e40b5387",
+   "source": "SEBI",
+   "date": "2026-11-17",
+   "text": "Review of Margin Framework for Commodity Derivatives Segment",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-margin-framework-for-commodity-derivatives-segment_105799.html"
+  },
+  {
+   "id": "284a751549d4",
+   "source": "SEBI",
+   "date": "2026-11-16",
+   "text": "SEBI Constitutes a Sub-Group of PMAC to Review Specified Provisions of the SEBI (ICDR) Regulations, 2018",
+   "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/sebi-constitutes-a-sub-group-of-pmac-to-review-specified-provisions-of-the-sebi-icdr-regulations-2018_105790.html"
+  },
+  {
+   "id": "23f1ff97b766",
+   "source": "SEBI",
+   "date": "2026-11-15",
+   "text": "Inauguration of SEBI’s Pavilion at the IITF, 2026 by Chairman, SEBI",
+   "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/inauguration-of-sebi-s-pavilion-at-the-iitf-2026-by-chairman-sebi_105775.html"
   },
   {
    "id": "4948044d8ac4",
@@ -287,13 +316,6 @@
    "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-know-your-client-process-for-individual-person-resident-outside-india-clients_105603.html"
   },
   {
-   "id": "e8207b509cb9",
-   "source": "SEBI",
-   "date": "2026-11-04",
-   "text": "SEBI Constitutes Working Group to Review the Innovators Growth Platform Framework",
-   "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/sebi-constitutes-working-group-to-review-the-innovators-growth-platform-framework_105610.html"
-  },
-  {
    "id": "b2f7a7e51028",
    "source": "Income Tax",
    "date": "2026-11-03",
@@ -315,13 +337,6 @@
    "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13750&Mode=0"
   },
   {
-   "id": "b25fb46b2065",
-   "source": "SEBI",
-   "date": "2026-11-03",
-   "text": "Memorandum of Understanding between Securities and Exchange Board of India (SEBI) and Digital India BHASHINI Division (DIBD)",
-   "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/memorandum-of-understanding-between-securities-and-exchange-board-of-india-sebi-and-digital-india-bhashini-division-dibd-_105575.html"
-  },
-  {
    "id": "4e5b6896b7e8",
    "source": "GST",
    "date": "2026-11-02",
@@ -341,20 +356,6 @@
    "date": "2026-11-02",
    "text": "Master Circular on Registration, Capital Structure, Transfer of Shares and Amalgamation of Insurers, 2026",
    "url": "https://irdai.gov.in/document-detail?documentId=9983016"
-  },
-  {
-   "id": "425a7751c2cc",
-   "source": "SEBI",
-   "date": "2026-11-02",
-   "text": "Framework for Issuance of Depository Receipts on Units of InvITs",
-   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-issuance-of-depository-receipts-on-units-of-invits-_105557.html"
-  },
-  {
-   "id": "eb42385b52d6",
-   "source": "SEBI",
-   "date": "2026-11-02",
-   "text": "Framework for Issuance of Depository Receipts on Units of REITs",
-   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-issuance-of-depository-receipts-on-units-of-reits-_105558.html"
   },
   {
    "id": "ec015c7feb9f",
