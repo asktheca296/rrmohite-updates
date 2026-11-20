@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-20T10:22:22.396Z",
+ "checked": "2026-11-20T13:30:06.254Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -13,11 +13,10 @@
    "added": 0,
    "failures": 0
   },
-  "RBI": {
-   "ok": true,
-   "found": 7,
-   "added": 0,
-   "failures": 0
+  "SEBI": {
+   "ok": false,
+   "error": "SEBI: feed has no items",
+   "failures": 1
   },
   "IBBI": {
    "ok": true,
@@ -31,16 +30,16 @@
    "added": 0,
    "failures": 0
   },
+  "RBI": {
+   "ok": true,
+   "found": 7,
+   "added": 0,
+   "failures": 0
+  },
   "IRDAI": {
    "ok": true,
    "found": 20,
    "added": 0,
-   "failures": 0
-  },
-  "SEBI": {
-   "ok": true,
-   "found": 4,
-   "added": 4,
    "failures": 0
   },
   "IFSCA": {
@@ -49,16 +48,16 @@
    "added": 0,
    "failures": 0
   },
+  "Customs": {
+   "ok": true,
+   "found": 3900,
+   "added": 1,
+   "failures": 0
+  },
   "GST": {
    "ok": true,
    "found": 1302,
    "added": 1,
-   "failures": 0
-  },
-  "Customs": {
-   "ok": true,
-   "found": 3899,
-   "added": 0,
    "failures": 0
   }
  },
@@ -104,6 +103,13 @@
    "date": "2026-11-14",
    "text": "Advanced Integrated Course on Information Technology and Soft Skills (Advanced ICITSS) - Adv. Information Technology Test – Computer Based Mode (CBT)",
    "url": "https://resource.cdn.icai.org/95117exam141126.pdf"
+  },
+  {
+   "id": "7a39e3659084",
+   "source": "Customs",
+   "date": "2026-11-13",
+   "text": "Notification 36/2026-Customs: Notification No. 36/2026-Customs dated 13th November, 2026.",
+   "url": "https://taxinformation.cbic.gov.in/"
   },
   {
    "id": "14d068110f3b",
@@ -1062,13 +1068,6 @@
    "source": "Customs",
    "date": "2026-07-11",
    "text": "Circular 32/2026: Discontinuation of submission of manual documents/statements in respect of containers imported under Notification No. 104/94-Customs dated 16.03.1994 by the Shipping Lines",
-   "url": "https://taxinformation.cbic.gov.in/"
-  },
-  {
-   "id": "a38663f99fd2",
-   "source": "Customs",
-   "date": "2026-07-10",
-   "text": "Notification 28/2026-Customs: Amendment in notification no.08/2016",
    "url": "https://taxinformation.cbic.gov.in/"
   },
   {
