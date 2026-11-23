@@ -1,16 +1,11 @@
 {
- "checked": "2026-11-22T19:46:06.388Z",
+ "checked": "2026-11-23T01:48:06.554Z",
  "sources": {
   "Income Tax": {
    "ok": true,
    "found": 10,
    "added": 0,
    "failures": 0
-  },
-  "SEBI": {
-   "ok": false,
-   "error": "SEBI: feed has no items",
-   "failures": 13
   },
   "RBI": {
    "ok": true,
@@ -24,29 +19,27 @@
    "added": 0,
    "failures": 0
   },
-  "IBBI": {
-   "ok": true,
-   "found": 3,
-   "added": 0,
-   "failures": 0
-  },
   "NFRA": {
    "ok": true,
    "found": 6,
    "added": 0,
    "failures": 0
   },
-  "IRDAI": {
-   "ok": true,
-   "found": 20,
-   "added": 0,
-   "failures": 0
+  "SEBI": {
+   "ok": false,
+   "error": "SEBI: feed has no items",
+   "failures": 14
   },
   "IFSCA": {
    "ok": true,
    "found": 50,
    "added": 0,
    "failures": 0
+  },
+  "IBBI": {
+   "ok": false,
+   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: ibbi.gov.in:443, timeout: 10000ms))",
+   "failures": 1
   },
   "GST": {
    "ok": true,
@@ -59,6 +52,11 @@
    "found": 3902,
    "added": 0,
    "failures": 0
+  },
+  "IRDAI": {
+   "ok": false,
+   "error": "IRDAI: no circulars found (page layout may have changed)",
+   "failures": 1
   }
  },
  "items": [
