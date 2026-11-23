@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-23T01:48:06.554Z",
+ "checked": "2026-11-23T12:56:57.597Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -10,12 +10,23 @@
   "RBI": {
    "ok": true,
    "found": 7,
-   "added": 0,
+   "added": 4,
    "failures": 0
+  },
+  "SEBI": {
+   "ok": false,
+   "error": "SEBI: feed has no items",
+   "failures": 15
   },
   "ICAI": {
    "ok": true,
    "found": 11,
+   "added": 0,
+   "failures": 0
+  },
+  "IBBI": {
+   "ok": true,
+   "found": 1,
    "added": 0,
    "failures": 0
   },
@@ -25,21 +36,17 @@
    "added": 0,
    "failures": 0
   },
-  "SEBI": {
-   "ok": false,
-   "error": "SEBI: feed has no items",
-   "failures": 14
+  "IRDAI": {
+   "ok": true,
+   "found": 20,
+   "added": 0,
+   "failures": 0
   },
   "IFSCA": {
    "ok": true,
    "found": 50,
    "added": 0,
    "failures": 0
-  },
-  "IBBI": {
-   "ok": false,
-   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: ibbi.gov.in:443, timeout: 10000ms))",
-   "failures": 1
   },
   "GST": {
    "ok": true,
@@ -52,14 +59,37 @@
    "found": 3902,
    "added": 0,
    "failures": 0
-  },
-  "IRDAI": {
-   "ok": false,
-   "error": "IRDAI: no circulars found (page layout may have changed)",
-   "failures": 1
   }
  },
  "items": [
+  {
+   "id": "17d13f6e57f7",
+   "source": "RBI",
+   "date": "2026-11-23",
+   "text": "Reserve Bank of India (Non-Banking Financial Companies - Securitisation Transactions) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13755&Mode=0"
+  },
+  {
+   "id": "4cea6763b755",
+   "source": "RBI",
+   "date": "2026-11-23",
+   "text": "Reserve Bank of India (All India Financial Institutions - Securitisation Transactions) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13756&Mode=0"
+  },
+  {
+   "id": "6458c8bc8f70",
+   "source": "RBI",
+   "date": "2026-11-23",
+   "text": "Reserve Bank of India (Small Finance Banks - Securitisation Transactions) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13754&Mode=0"
+  },
+  {
+   "id": "f918205627fe",
+   "source": "RBI",
+   "date": "2026-11-23",
+   "text": "Reserve Bank of India (Commercial Banks - Securitisation Transactions) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13753&Mode=0"
+  },
   {
    "id": "8f532f11b32e",
    "source": "Customs",
