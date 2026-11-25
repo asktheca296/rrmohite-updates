@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-24T23:55:37.551Z",
+ "checked": "2026-11-25T08:43:06.748Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -7,16 +7,16 @@
    "added": 0,
    "failures": 0
   },
-  "SEBI": {
-   "ok": false,
-   "error": "SEBI: feed has no items",
-   "failures": 18
-  },
   "RBI": {
    "ok": true,
    "found": 7,
    "added": 0,
    "failures": 0
+  },
+  "SEBI": {
+   "ok": false,
+   "error": "SEBI: feed has no items",
+   "failures": 19
   },
   "ICAI": {
    "ok": true,
@@ -30,12 +30,6 @@
    "added": 0,
    "failures": 0
   },
-  "NFRA": {
-   "ok": true,
-   "found": 6,
-   "added": 0,
-   "failures": 0
-  },
   "IRDAI": {
    "ok": true,
    "found": 20,
@@ -45,8 +39,13 @@
   "IFSCA": {
    "ok": true,
    "found": 50,
-   "added": 0,
+   "added": 1,
    "failures": 0
+  },
+  "NFRA": {
+   "ok": false,
+   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: nfra.gov.in:443, timeout: 10000ms))",
+   "failures": 1
   },
   "GST": {
    "ok": true,
@@ -62,6 +61,13 @@
   }
  },
  "items": [
+  {
+   "id": "9f2a1d49c7f9",
+   "source": "IFSCA",
+   "date": "2026-11-25",
+   "text": "Circular: Amendment to the \"Master Circular for recognised Stock Exchanges and recognised Clearing Corporations\"",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=fc2cfb582037f82d92801abc770d995c&fileName=Circular_on_Amendment_to_the_Master_Circular_for_recognised_Stock_Exchanges_and_recognised_Clearing_Corporations_20261125_0114.pdf&TitleName=Circular"
+  },
   {
    "id": "17d13f6e57f7",
    "source": "RBI",
@@ -1034,13 +1040,6 @@
    "date": "2026-08-10",
    "text": "Circular: Clarification regarding the Circular dated May 12, 2026, titled “Implementation Services by Investment Advisers in the IFSC”",
    "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=29709e474fe6b066fc0cb19f7dd94dc2&fileName=Implementation_Circular___Clarification_10_08_2026_20260810_0540.pdf&TitleName=Circular"
-  },
-  {
-   "id": "c5ec3afe4323",
-   "source": "IFSCA",
-   "date": "2026-08-10",
-   "text": "Circular: Specification of Certification Course for the employees of Fund Management Entities under the IFSCA (Fund Management) Regulations, 2025",
-   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=29709e474fe6b066fc0cb19f7dda5164&fileName=Specification_of_Certification_Course_for_the_employees_of_FMEs_under_IFSCA__Fund_Management__Regulations__2025_20260810_0652.pdf&TitleName=Circular"
   },
   {
    "id": "d94dbd66f92c",
