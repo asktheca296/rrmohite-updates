@@ -1,15 +1,9 @@
 {
- "checked": "2026-11-26T03:37:02.640Z",
+ "checked": "2026-11-26T16:59:22.848Z",
  "sources": {
   "Income Tax": {
    "ok": true,
    "found": 10,
-   "added": 0,
-   "failures": 0
-  },
-  "RBI": {
-   "ok": true,
-   "found": 7,
    "added": 0,
    "failures": 0
   },
@@ -19,20 +13,27 @@
    "added": 0,
    "failures": 0
   },
-  "SEBI": {
-   "ok": false,
-   "error": "fetch failed (ENOTFOUND getaddrinfo ENOTFOUND www.sebi.gov.in)",
-   "failures": 21
-  },
-  "NFRA": {
+  "RBI": {
    "ok": true,
-   "found": 6,
+   "found": 7,
    "added": 0,
+   "failures": 0
+  },
+  "SEBI": {
+   "ok": true,
+   "found": 5,
+   "added": 4,
    "failures": 0
   },
   "IBBI": {
    "ok": true,
-   "found": 0,
+   "found": 1,
+   "added": 1,
+   "failures": 0
+  },
+  "NFRA": {
+   "ok": true,
+   "found": 6,
    "added": 0,
    "failures": 0
   },
@@ -62,6 +63,13 @@
   }
  },
  "items": [
+  {
+   "id": "c0167f4adcad",
+   "source": "IBBI",
+   "date": "2026-11-26",
+   "text": "Shri Rahul Madan takes charge as Chairperson of Insolvency and Bankruptcy Board of India.",
+   "url": "https://ibbi.gov.in/uploads/whatsnew/d3f7cef19fdf7a535e288aa41a0ba39a.pdf"
+  },
   {
    "id": "49e8447e210a",
    "source": "Customs",
@@ -98,6 +106,20 @@
    "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=fc2cfb582037f82d92801abc770d995c&fileName=Circular_on_Amendment_to_the_Master_Circular_for_recognised_Stock_Exchanges_and_recognised_Clearing_Corporations_20261125_0114.pdf&TitleName=Circular"
   },
   {
+   "id": "133455490025",
+   "source": "SEBI",
+   "date": "2026-11-25",
+   "text": "Simplification of client on-boarding and rationalisation of risk management framework at KYC Registration Agencies",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/simplification-of-client-on-boarding-and-rationalisation-of-risk-management-framework-at-kyc-registration-agencies_105839.html"
+  },
+  {
+   "id": "f17e4e3c4cc5",
+   "source": "SEBI",
+   "date": "2026-11-25",
+   "text": "Half-yearly review of -Significant Indices- under SEBI (Index Providers) Regulations, 2024",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/half-yearly-review-of-significant-indices-under-sebi-index-providers-regulations-2024_105853.html"
+  },
+  {
    "id": "17d13f6e57f7",
    "source": "RBI",
    "date": "2026-11-23",
@@ -124,6 +146,20 @@
    "date": "2026-11-23",
    "text": "Reserve Bank of India (Commercial Banks - Securitisation Transactions) Amendment Directions, 2026",
    "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13753&Mode=0"
+  },
+  {
+   "id": "3d52241e5a48",
+   "source": "SEBI",
+   "date": "2026-11-23",
+   "text": "Advisory Regarding Unregulated Pre-listing Premium often called as Grey Market Premium (GMP) for Upcoming Initial Public Offers (IPOs)",
+   "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/advisory-regarding-unregulated-pre-listing-premium-often-called-as-grey-market-premium-gmp-for-upcoming-initial-public-offers-ipos-_105942.html"
+  },
+  {
+   "id": "dff388cc0f94",
+   "source": "SEBI",
+   "date": "2026-11-23",
+   "text": "Caution to investors regarding impersonation of SEBI registered intermediaries on closed user groups of social media platforms",
+   "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/caution-to-investors-regarding-impersonation-of-sebi-registered-intermediaries-on-closed-user-groups-of-social-media-platforms_105944.html"
   },
   {
    "id": "8f532f11b32e",
@@ -343,27 +379,6 @@
    "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13751&Mode=0"
   },
   {
-   "id": "6a2817425b9f",
-   "source": "SEBI",
-   "date": "2026-11-05",
-   "text": "Review of the framework for Accredited Investors",
-   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-the-framework-for-accredited-investors_105618.html"
-  },
-  {
-   "id": "8176502b6e66",
-   "source": "SEBI",
-   "date": "2026-11-05",
-   "text": "Framework for net settlement of funds for transactions undertaken by mutual fund schemes in cash market",
-   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/framework-for-net-settlement-of-funds-for-transactions-undertaken-by-mutual-fund-schemes-in-cash-market_105616.html"
-  },
-  {
-   "id": "ccb102942865",
-   "source": "SEBI",
-   "date": "2026-11-05",
-   "text": "Revision of limits relating to requirement of underlying exposure for currency derivatives contracts",
-   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/revision-of-limits-relating-to-requirement-of-underlying-exposure-for-currency-derivatives-contracts_105614.html"
-  },
-  {
    "id": "b56ec787ca07",
    "source": "IBBI",
    "date": "2026-11-04",
@@ -390,13 +405,6 @@
    "date": "2026-11-04",
    "text": "Notification: Notification enabling Operating lease including any hybrid of operating and financial lease of \"GPU and connected data centre equipment\" as financial product",
    "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=850da50e42b9c192894a42a7d2ca046f&fileName=Notification_on_GPU_and_connected_data_centre_equipmentas_a_financial_product_in_IFSC_20261104_1129.pdf&TitleName=Notification"
-  },
-  {
-   "id": "b62ea22e5c99",
-   "source": "SEBI",
-   "date": "2026-11-04",
-   "text": "Review of Know Your Client process for individual Person Resident Outside India clients",
-   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/review-of-know-your-client-process-for-individual-person-resident-outside-india-clients_105603.html"
   },
   {
    "id": "b2f7a7e51028",
