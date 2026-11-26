@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-25T19:21:34.153Z",
+ "checked": "2026-11-26T03:37:02.640Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -13,26 +13,26 @@
    "added": 0,
    "failures": 0
   },
-  "SEBI": {
-   "ok": false,
-   "error": "SEBI: feed has no items",
-   "failures": 20
-  },
   "ICAI": {
    "ok": true,
    "found": 11,
    "added": 0,
    "failures": 0
   },
-  "IBBI": {
-   "ok": true,
-   "found": 0,
-   "added": 0,
-   "failures": 0
+  "SEBI": {
+   "ok": false,
+   "error": "fetch failed (ENOTFOUND getaddrinfo ENOTFOUND www.sebi.gov.in)",
+   "failures": 21
   },
   "NFRA": {
    "ok": true,
    "found": 6,
+   "added": 0,
+   "failures": 0
+  },
+  "IBBI": {
+   "ok": true,
+   "found": 0,
    "added": 0,
    "failures": 0
   },
@@ -45,19 +45,19 @@
   "IFSCA": {
    "ok": true,
    "found": 50,
-   "added": 2,
+   "added": 1,
    "failures": 0
   },
   "GST": {
    "ok": true,
    "found": 1304,
-   "added": 1,
+   "added": 0,
    "failures": 0
   },
   "Customs": {
    "ok": true,
    "found": 3904,
-   "added": 2,
+   "added": 0,
    "failures": 0
   }
  },
