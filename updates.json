@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-27T01:46:08.643Z",
+ "checked": "2026-11-27T12:33:04.619Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -9,19 +9,13 @@
   },
   "RBI": {
    "ok": true,
-   "found": 7,
-   "added": 0,
+   "found": 8,
+   "added": 4,
    "failures": 0
   },
   "ICAI": {
    "ok": true,
    "found": 11,
-   "added": 0,
-   "failures": 0
-  },
-  "IBBI": {
-   "ok": true,
-   "found": 1,
    "added": 0,
    "failures": 0
   },
@@ -31,9 +25,9 @@
    "added": 0,
    "failures": 0
   },
-  "SEBI": {
+  "IBBI": {
    "ok": true,
-   "found": 5,
+   "found": 1,
    "added": 0,
    "failures": 0
   },
@@ -41,6 +35,12 @@
    "ok": true,
    "found": 20,
    "added": 0,
+   "failures": 0
+  },
+  "SEBI": {
+   "ok": true,
+   "found": 7,
+   "added": 3,
    "failures": 0
   },
   "IFSCA": {
@@ -63,6 +63,62 @@
   }
  },
  "items": [
+  {
+   "id": "812f3591a749",
+   "source": "IFSCA",
+   "date": "2026-11-27",
+   "text": "Circular: Guidelines on critical issues to be discussed during the meetings of Public Interest Directors of the Market Infrastructure Institutions",
+   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=fc2cfb582037f82d92801abc771712f1&fileName=Guidelines_on_critical_issues_to_be_discussed_during_the_meetings_of_Public_Interest_Directors_of_the_Market_Infrastructure_Institutions_20261127_1226.pdf&TitleName=Circular"
+  },
+  {
+   "id": "c82960842247",
+   "source": "RBI",
+   "date": "2026-11-27",
+   "text": "Reserve Bank of India (Digital Payments – Card-based transaction) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13760&Mode=0"
+  },
+  {
+   "id": "e9f1a5e94a0b",
+   "source": "RBI",
+   "date": "2026-11-27",
+   "text": "Reserve Bank of India (White Label ATM Operators) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13762&Mode=0"
+  },
+  {
+   "id": "f6ac77da013b",
+   "source": "RBI",
+   "date": "2026-11-27",
+   "text": "Reserve Bank of India (Cash Withdrawal Transactions through Automated Teller Machines and Point of Sale Terminals) Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13761&Mode=0"
+  },
+  {
+   "id": "f9c3f42f5354",
+   "source": "RBI",
+   "date": "2026-11-27",
+   "text": "Section 42(1) of the Reserve Bank of India Act, 1934 - Change in Daily Minimum Cash Reserve Maintenance Requirement",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13759&Mode=0"
+  },
+  {
+   "id": "00ac4b9e416e",
+   "source": "SEBI",
+   "date": "2026-11-27",
+   "text": "Clarification on certain media reports regarding Consultation Paper on Strengthening the Governance of Market Infrastructure Institutions (MIIs)",
+   "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/clarification-on-certain-media-reports-regarding-consultation-paper-on-strengthening-the-governance-of-market-infrastructure-institutions-miis-_105978.html"
+  },
+  {
+   "id": "23d8ee204ded",
+   "source": "SEBI",
+   "date": "2026-11-27",
+   "text": "Order in respect of Raj Kumar Yadav in the matter of M/s Real Sunshine Corp Limited",
+   "url": "https://www.sebi.gov.in/enforcement/orders/nov-2026/order-in-respect-of-raj-kumar-yadav-in-the-matter-of-m-s-real-sunshine-corp-limited_105972.html"
+  },
+  {
+   "id": "fb0973996fec",
+   "source": "SEBI",
+   "date": "2026-11-27",
+   "text": "FPI Participation in Exchange Traded Commodity Derivatives (ETCDs)",
+   "url": "https://www.sebi.gov.in/legal/circulars/nov-2026/fpi-participation-in-exchange-traded-commodity-derivatives-etcds-_105989.html"
+  },
   {
    "id": "c0167f4adcad",
    "source": "IBBI",
@@ -344,32 +400,11 @@
    "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/prohibitory-order-no-1583-of-2026-issued-against-cat-technologies-limited-associated-with-rc-4398-of-2021-in-the-matter-of-cat-technologies-ltd-_105693.html"
   },
   {
-   "id": "42f9327e79fe",
-   "source": "SEBI",
-   "date": "2026-11-10",
-   "text": "Prohibitory Order No. 1581 of 2026 issued against Dhiraj Kumar Jaiswal associated with RC 4391 of 2021 in the matter of CAT Technologies Ltd.",
-   "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/prohibitory-order-no-1581-of-2026-issued-against-dhiraj-kumar-jaiswal-associated-with-rc-4391-of-2021-in-the-matter-of-cat-technologies-ltd-_105689.html"
-  },
-  {
-   "id": "cdf9a6639f98",
-   "source": "SEBI",
-   "date": "2026-11-10",
-   "text": "Prohibitory Order No. 1582 of 2026 issued against Dinesh Kumar Jaiswal associated with RC 4395 of 2021 in the matter of CAT Technologies Ltd.",
-   "url": "https://www.sebi.gov.in/enforcement/recovery-proceedings/nov-2026/prohibitory-order-no-1582-of-2026-issued-against-dinesh-kumar-jaiswal-associated-with-rc-4395-of-2021-in-the-matter-of-cat-technologies-ltd-_105691.html"
-  },
-  {
    "id": "f590627fcacb",
    "source": "Income Tax",
    "date": "2026-11-06",
    "text": "CBDT has notified that no tax shall be deducted on dividend income paid by an International Financial Services Centre (IFSC) unit engaged in aircraft leasing to another IFSC unit engaged in aircraft leasing, subject to furnishing the prescribed Form No. 1(N), vide Notification No. 141/2026 dated 4 November 2026, with effect from 1 April 2026, under the Income-tax Act, 2025.",
    "url": "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-11/Notification-No-141-2026.pdf"
-  },
-  {
-   "id": "6b38b4718c80",
-   "source": "SEBI",
-   "date": "2026-11-06",
-   "text": "Commencement of SEBI (Settlement of Administrative and Civil Proceedings) Regulations, 2026",
-   "url": "https://www.sebi.gov.in/media-and-notifications/press-releases/nov-2026/commencement-of-sebi-settlement-of-administrative-and-civil-proceedings-regulations-2026_105680.html"
   },
   {
    "id": "bdaa121acd41",
@@ -1056,13 +1091,6 @@
    "date": "2026-08-20",
    "text": "Circular 36/2026: Return of export cargo from international waters due to closure of the Strait of Hormuz- Section 143AAof the Customs Act, 1962",
    "url": "https://taxinformation.cbic.gov.in/"
-  },
-  {
-   "id": "1254d21adbe8",
-   "source": "IFSCA",
-   "date": "2026-08-10",
-   "text": "Circular: Directions to all Regulated Entities",
-   "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=29709e474fe6b066fc0cb19f7dd68540&fileName=Circular___Directions_to_All_REs_20260810_0215.pdf&TitleName=Circular"
   },
   {
    "id": "d94dbd66f92c",
