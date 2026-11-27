@@ -1,5 +1,5 @@
 {
- "checked": "2026-11-27T12:33:04.619Z",
+ "checked": "2026-11-27T23:30:18.660Z",
  "sources": {
   "Income Tax": {
    "ok": true,
@@ -9,8 +9,8 @@
   },
   "RBI": {
    "ok": true,
-   "found": 8,
-   "added": 4,
+   "found": 10,
+   "added": 6,
    "failures": 0
   },
   "ICAI": {
@@ -37,17 +37,16 @@
    "added": 0,
    "failures": 0
   },
-  "SEBI": {
-   "ok": true,
-   "found": 7,
-   "added": 3,
-   "failures": 0
-  },
   "IFSCA": {
    "ok": true,
    "found": 50,
-   "added": 1,
+   "added": 0,
    "failures": 0
+  },
+  "SEBI": {
+   "ok": false,
+   "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT Connect Timeout Error (attempted address: www.sebi.gov.in:443, timeout: 10000ms))",
+   "failures": 1
   },
   "GST": {
    "ok": true,
@@ -71,11 +70,53 @@
    "url": "https://ifsca.gov.in/CommonDirect/GetFileView?id=fc2cfb582037f82d92801abc771712f1&fileName=Guidelines_on_critical_issues_to_be_discussed_during_the_meetings_of_Public_Interest_Directors_of_the_Market_Infrastructure_Institutions_20261127_1226.pdf&TitleName=Circular"
   },
   {
+   "id": "39845e307ea2",
+   "source": "RBI",
+   "date": "2026-11-27",
+   "text": "Reserve Bank of India (Payment Banks - Know Your Customer) Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13768&Mode=0"
+  },
+  {
+   "id": "46a79c5c3018",
+   "source": "RBI",
+   "date": "2026-11-27",
+   "text": "Reserve Bank of India (Small Finance Banks - Know Your Customer) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13764&Mode=0"
+  },
+  {
+   "id": "9528b0440365",
+   "source": "RBI",
+   "date": "2026-11-27",
+   "text": "Reserve Bank of India (Urban Co-operative Banks - Know Your Customer) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13767&Mode=0"
+  },
+  {
+   "id": "c01fa0f56a15",
+   "source": "RBI",
+   "date": "2026-11-27",
+   "text": "Reserve Bank of India (Commercial Banks - Know Your Customer) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13763&Mode=0"
+  },
+  {
    "id": "c82960842247",
    "source": "RBI",
    "date": "2026-11-27",
    "text": "Reserve Bank of India (Digital Payments – Card-based transaction) Directions, 2026",
    "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13760&Mode=0"
+  },
+  {
+   "id": "d719d061ad0a",
+   "source": "RBI",
+   "date": "2026-11-27",
+   "text": "Reserve Bank of India (Regional Rural Banks - Know Your Customer) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13766&Mode=0"
+  },
+  {
+   "id": "e617f15db6f4",
+   "source": "RBI",
+   "date": "2026-11-27",
+   "text": "Reserve Bank of India (Local Area Banks - Know Your Customer) Second Amendment Directions, 2026",
+   "url": "https://www.rbi.org.in/scripts/NotificationUser.aspx?Id=13765&Mode=0"
   },
   {
    "id": "e9f1a5e94a0b",
